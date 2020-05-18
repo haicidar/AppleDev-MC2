@@ -47,6 +47,9 @@
                                                     <rect key="frame" x="155" y="112" width="199" height="36"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" image="button.Mainkan"/>
+                                                    <connections>
+                                                        <action selector="buttonMainkanPressed:" destination="MYN-dU-ErU" eventType="touchUpInside" id="vXi-9K-xyx"/>
+                                                    </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Game 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgv-9T-3qX">
                                                     <rect key="frame" x="155" y="12" width="199" height="20"/>
@@ -65,8 +68,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="cellButtonMainkan" destination="yzx-UB-Pr2" id="zfy-8q-gfY"/>
                                             <outlet property="gameCategoryImage" destination="7Y7-Ih-qev" id="gqW-9I-cAT"/>
-                                            <outlet property="gameDetailLabel" destination="d5d-a8-SGk" id="bFS-51-D5J"/>
+                                            <outlet property="gameDescriptionLabel" destination="d5d-a8-SGk" id="bFS-51-D5J"/>
                                             <outlet property="gameTitleLabel" destination="vgv-9T-3qX" id="j8o-hw-eLK"/>
                                         </connections>
                                     </tableViewCell>
