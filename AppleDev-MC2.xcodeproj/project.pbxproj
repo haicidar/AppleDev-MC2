@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		257ABEDE2473BC6A00C712DB /* GameCuciPiring.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */; };
+		257ABEE02473BC7B00C712DB /* GameCuciPiringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */; };
 		28A6A834246A8F1900FD04C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6A833246A8F1900FD04C8 /* AppDelegate.swift */; };
 		28A6A836246A8F1900FD04C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6A835246A8F1900FD04C8 /* SceneDelegate.swift */; };
 		28A6A838246A8F1900FD04C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6A837246A8F1900FD04C8 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameCuciPiring.storyboard; sourceTree = "<group>"; };
+		257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCuciPiringVC.swift; sourceTree = "<group>"; };
 		28A6A830246A8F1900FD04C8 /* AppleDev-MC2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleDev-MC2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A6A833246A8F1900FD04C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28A6A835246A8F1900FD04C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				28A6A83C246A8F1900FD04C8 /* Assets.xcassets */,
 				28A6A83E246A8F1900FD04C8 /* LaunchScreen.storyboard */,
 				28A6A841246A8F1900FD04C8 /* Info.plist */,
+				257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */,
+				257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */,
 			);
 			path = "AppleDev-MC2";
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				28A6A840246A8F1900FD04C8 /* LaunchScreen.storyboard in Resources */,
 				28A6A83D246A8F1900FD04C8 /* Assets.xcassets in Resources */,
 				28A6A83B246A8F1900FD04C8 /* Main.storyboard in Resources */,
+				257ABEDE2473BC6A00C712DB /* GameCuciPiring.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A6A838246A8F1900FD04C8 /* ViewController.swift in Sources */,
+				257ABEE02473BC7B00C712DB /* GameCuciPiringVC.swift in Sources */,
 				28A6A834246A8F1900FD04C8 /* AppDelegate.swift in Sources */,
 				28A6A836246A8F1900FD04C8 /* SceneDelegate.swift in Sources */,
 			);
