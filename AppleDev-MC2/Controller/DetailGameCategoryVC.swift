@@ -13,16 +13,15 @@ class DetailGameCategoryVC: UIViewController {
     @IBOutlet weak var detailGameDescription: UILabel!
     @IBOutlet weak var detailGameImage: UIImageView!
     @IBOutlet weak var detailGameTitle: UILabel!
-    
-    var category: GameCategory?
+
+    var categories = [GameCategory]()
+    var index = Int()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        if let category = category {
-            detailGameTitle.text = category.title
-            detailGameImage.image = UIImage(named: category.images)
-            detailGameDescription.text = category.details
-        }
+        print(index)
+        detailGameTitle.text = categories[index].title
+        detailGameImage.image = UIImage(named: categories[index].images)
+        detailGameDescription.text = categories[index].details
     }
 }

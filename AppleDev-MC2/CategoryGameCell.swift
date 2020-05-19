@@ -8,13 +8,13 @@
 
 import UIKit
 
-//protocol CategoryGameDelegate{
-//    func didPressMainkan(title: String)
-//}
-
-protocol CategoryGameDelegate {
-    func didPressMainkan(myData dataobject: AnyObject)
+protocol CategoryGameDelegate: class {
+    func didPressMainkan(index: Int)
 }
+
+//protocol CategoryGameDelegate {
+//    func didPressMainkan(myData dataobject: AnyObject)
+//}
 
 class CategoryGameCell: UITableViewCell {
 
@@ -23,32 +23,34 @@ class CategoryGameCell: UITableViewCell {
     @IBOutlet weak var gameCategoryImage: UIImageView!
     @IBOutlet weak var cellButtonMainkan: UIButton!
     
-    var delegate:CategoryGameDelegate!
-    
-    override func prepareForReuse() {
-        super.prepareForReuse()
-        gameTitleLabel.text = nil
-        gameDescriptionLabel.text = nil
-        gameCategoryImage.image = nil
+    var currentIndex = Int()
+    weak var delegate: CategoryGameDelegate?
+    var gameObject: GameCategory? {
+        didSet {
+            cellConfig()
+        }
     }
     
+    func cellConfig() {
+        guard let obj = gameObject else { return }
+        gameTitleLabel.text = obj.title
+        gameDescriptionLabel.text = obj.details
+        gameCategoryImage.image = UIImage(named: obj.images)
+        cellButtonMainkan.addTarget(self, action: #selector(didTapped), for: .touchUpInside)
+    }
     
-    @IBAction func buttonMainkanPressed(_ sender: Any) {
-        if(self.delegate != nil){
-        }
-//        var mydata = "Anydata you want to send to the next controller"
-//        if(self.delegate != nil){
-//            self.delegate.callSegueFromCell(mydata as AnyObject)
-//    }
+    @objc func didTapped() {
+        self.delegate?.didPressMainkan(index: currentIndex)
     }
     
 // MARK:  Cell Configuration
+    /*
     func configurateThecell(_ gameCategory: GameCategory){
         gameTitleLabel.text = gameCategory.title
         gameDescriptionLabel.text = gameCategory.details
         gameCategoryImage.image = UIImage(named: gameCategory.images)
     }
-    
+    */
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

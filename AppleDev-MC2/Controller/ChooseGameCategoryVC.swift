@@ -13,6 +13,8 @@ class ChooseGameCategoryVC: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet var tableViewCategory: UITableView!
     let identifier: String = "categoryCell"
     var categories = GameCategory.createGameCategory()
+    var gameTitle: GameCategory?
+    var currentIndex = Int()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +23,6 @@ class ChooseGameCategoryVC: UIViewController, UITableViewDelegate, UITableViewDa
         tableViewCategory.dataSource = self
         // Do any additional setup after loading the view.
     }
-    
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -37,15 +38,22 @@ class ChooseGameCategoryVC: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: identifier) as? CategoryGameCell {
-            cell.configurateThecell(categories[indexPath.row])
-            return cell
-        }
-        return UITableViewCell()
+        let cell = (tableView.dequeueReusableCell(withIdentifier: identifier) as? CategoryGameCell)!
+        cell.gameObject = categories[indexPath.row]
+        cell.currentIndex = indexPath.row
+        cell.delegate = self
+        return cell
     }
-    
- 
-    
-//    // MARK:  Segue Method
-    
+     
+}
+
+extension ChooseGameCategoryVC: CategoryGameDelegate {
+    func didPressMainkan(index: Int) {
+        currentIndex = index
+        let storyboard = UIStoryboard(name: "DetailGameCategory", bundle: nil)
+        let myVC = storyboard.instantiateViewController(withIdentifier: "DetailGameCategoryVC") as! DetailGameCategoryVC
+        myVC.index = currentIndex
+        myVC.categories = categories
+        self.present(myVC, animated: true, completion: nil)
+    }
 }
