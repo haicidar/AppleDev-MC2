@@ -10,7 +10,7 @@
         <!--Detail Game CategoryVC-->
         <scene sceneID="wlf-pe-LWx">
             <objects>
-                <viewController storyboardIdentifier="DetailGameCategoryVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="354-iO-WXm" customClass="DetailGameCategoryVC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailGameCategoryVC" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="354-iO-WXm" customClass="DetailGameCategoryVC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vCS-is-YX4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,20 +40,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EU-G1-coq">
-                                <rect key="frame" x="184" y="275" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utI-ZR-Wuh">
+                                <rect key="frame" x="16" y="370" width="382" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="button.LevelDisabled2"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utI-ZR-Wuh">
-                                <rect key="frame" x="184" y="335" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ix0-X6-tdL">
+                                <rect key="frame" x="16" y="474" width="382" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="button.LevelDisabled3"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ix0-X6-tdL">
-                                <rect key="frame" x="184" y="396" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EU-G1-coq">
+                                <rect key="frame" x="20" y="275" width="382" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="button.LevelEnabled1"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -90,6 +90,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="button.LevelDisabled2" width="382" height="58"/>
+        <image name="button.LevelDisabled3" width="382" height="58"/>
+        <image name="button.LevelEnabled1" width="382" height="58"/>
         <image name="icon.Back" width="24" height="24"/>
     </resources>
 </document>
