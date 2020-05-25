@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AwL-aQ-lZy">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game Cuci PiringVC-->
+        <scene sceneID="Xar-RQ-0t8">
+            <objects>
+                <viewController id="AwL-aQ-lZy" customClass="GameCuciPiringVC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rco-Vq-1ff">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgcucipiring" translatesAutoresizingMaskIntoConstraints="NO" id="ngf-Sg-D1y">
+                                <rect key="frame" x="-33" y="546" width="481" height="399"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="piring" translatesAutoresizingMaskIntoConstraints="NO" id="cfL-tP-QC4">
+                                <rect key="frame" x="87" y="221" width="241" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydk-L9-awA">
+                                <rect key="frame" x="20" y="59" width="24" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="icon.Back"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hindari Kuman!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKc-dJ-4r0">
+                                <rect key="frame" x="52" y="59" width="146" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.2941447794" green="0.73986285919999994" blue="0.58821922540000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kotoran3kananatas" translatesAutoresizingMaskIntoConstraints="NO" id="Cx2-AC-h0r">
+                                <rect key="frame" x="285" y="277" width="35" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kototran6tengah" translatesAutoresizingMaskIntoConstraints="NO" id="EDl-yh-9Ix">
+                                <rect key="frame" x="247" y="365" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kotoran2atas" translatesAutoresizingMaskIntoConstraints="NO" id="jDz-l0-SDB">
+                                <rect key="frame" x="153" y="227" width="62" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kotoran1paling kiri" translatesAutoresizingMaskIntoConstraints="NO" id="W2c-DM-Do2">
+                                <rect key="frame" x="87" y="277" width="27" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kotoran4kiribawah" translatesAutoresizingMaskIntoConstraints="NO" id="6F0-tx-UlR">
+                                <rect key="frame" x="132" y="416" width="12" height="11"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXf-C3-ItM">
+                                <rect key="frame" x="16" y="807" width="382" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="button.Hint"/>
+                                <connections>
+                                    <action selector="showHint:" destination="AwL-aQ-lZy" eventType="touchUpInside" id="MqH-ef-FbY"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kotoran5palingbawah" translatesAutoresizingMaskIntoConstraints="NO" id="Za5-FQ-Udm">
+                                <rect key="frame" x="162" y="450" width="53" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bantu Ibu Cuci Piring, Yuk!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFD-q3-wcn">
+                                <rect key="frame" x="99" y="130" width="216" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sponge" translatesAutoresizingMaskIntoConstraints="NO" id="Xn9-fa-Dpb">
+                                <rect key="frame" x="312" y="611" width="102" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="QeR-z9-wKC" appends="YES" id="Eca-MC-PYm"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.BaseHintIndicator" translatesAutoresizingMaskIntoConstraints="NO" id="yr6-F9-nDI">
+                                <rect key="frame" x="323" y="53" width="75" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon.Hint" translatesAutoresizingMaskIntoConstraints="NO" id="lPz-zl-t7A">
+                                <rect key="frame" x="333" y="58" width="20" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fy-Ps-xKP">
+                                <rect key="frame" x="361" y="60" width="11" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.94572299719999997" green="0.63361436130000004" blue="0.062193699179999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Xza-qZ-a6X"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonHint" destination="rXf-C3-ItM" id="GQT-kk-HJm"/>
+                        <outlet property="hintLabel" destination="8fy-Ps-xKP" id="l3L-4Y-qON"/>
+                        <outlet property="imgKotoran1" destination="W2c-DM-Do2" id="C4O-rW-6Ki"/>
+                        <outlet property="imgKotoran2" destination="jDz-l0-SDB" id="RNj-Kq-OaY"/>
+                        <outlet property="imgKotoran3" destination="Cx2-AC-h0r" id="BjK-hc-EB6"/>
+                        <outlet property="imgKotoran4" destination="6F0-tx-UlR" id="oD6-qF-996"/>
+                        <outlet property="imgKotoran5" destination="Za5-FQ-Udm" id="7n6-4y-z4u"/>
+                        <outlet property="imgKotoran6" destination="EDl-yh-9Ix" id="v64-MR-whI"/>
+                        <outlet property="imgPiring" destination="cfL-tP-QC4" id="GA6-B8-g9W"/>
+                        <outlet property="imgSponge" destination="Xn9-fa-Dpb" id="1FS-Hy-IjR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ejh-F0-20D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="QeR-z9-wKC">
+                    <connections>
+                        <action selector="handlePan:" destination="AwL-aQ-lZy" id="gs0-ZN-su1"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="186.95652173913044" y="-35.491071428571423"/>
+        </scene>
+        <!--Hint Cuci PiringVC-->
+        <scene sceneID="KfU-wB-cqg">
+            <objects>
+                <viewController storyboardIdentifier="HintCuciPiring" id="1Z6-n5-mmK" customClass="HintCuciPiringVC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="thr-s2-KYR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.HintBase" translatesAutoresizingMaskIntoConstraints="NO" id="X3N-x4-oJA">
+                                <rect key="frame" x="57" y="368" width="301" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon.Hint" translatesAutoresizingMaskIntoConstraints="NO" id="W7y-3d-iVr">
+                                <rect key="frame" x="70" y="391" width="32" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Petunjuk!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LrK-Hx-NNF">
+                                <rect key="frame" x="97" y="391" width="66" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.94572299719999997" green="0.63361436130000004" blue="0.062193699179999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lorem ipsum dolor sit amet consectetuer adipiscing elit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rm7-Su-lgT">
+                                <rect key="frame" x="74" y="432" width="267" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Gqn-k9-KOw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i7z-Rj-PTZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="963.76811594202911" y="-35.491071428571423"/>
+        </scene>
+        <!--Berhasil Cuci PiringVC-->
+        <scene sceneID="BX0-xF-mEp">
+            <objects>
+                <viewController id="yyJ-vd-YJS" customClass="BerhasilCuciPiringVC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ueM-Xz-sbB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.BasePopUp" translatesAutoresizingMaskIntoConstraints="NO" id="U6a-G6-omj">
+                                <rect key="frame" x="-82" y="295" width="579" height="307"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.HeaderPopUp" translatesAutoresizingMaskIntoConstraints="NO" id="GMC-zV-N1u">
+                                <rect key="frame" x="87" y="254" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Setelah selesai makan, piringnya langsung dicuci ya! Agar bakteri dalam piring tidak berkembang biak" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agX-MJ-tgI">
+                                <rect key="frame" x="107" y="451" width="200" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="cak-gX-YUz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yyr-jT-STN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1718.840579710145" y="-34.151785714285715"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="asset.BaseHintIndicator" width="76" height="36"/>
+        <image name="asset.BasePopUp" width="382" height="463"/>
+        <image name="asset.HeaderPopUp" width="274" height="123"/>
+        <image name="asset.HintBase" width="321" height="141"/>
+        <image name="bgcucipiring" width="414" height="393"/>
+        <image name="button.Hint" width="382" height="44"/>
+        <image name="icon.Back" width="24" height="24"/>
+        <image name="icon.Hint" width="59" height="59"/>
+        <image name="kotoran1paling kiri" width="70" height="266"/>
+        <image name="kotoran2atas" width="129" height="85"/>
+        <image name="kotoran3kananatas" width="137" height="166"/>
+        <image name="kotoran4kiribawah" width="148" height="128"/>
+        <image name="kotoran5palingbawah" width="160" height="78"/>
+        <image name="kototran6tengah" width="111" height="135"/>
+        <image name="piring" width="234" height="234"/>
+        <image name="sponge" width="185" height="202"/>
+    </resources>
+</document>
