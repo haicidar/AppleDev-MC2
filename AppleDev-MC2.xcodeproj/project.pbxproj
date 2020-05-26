@@ -15,6 +15,15 @@
 		28A6A840246A8F1900FD04C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A6A83E246A8F1900FD04C8 /* LaunchScreen.storyboard */; };
 		3F101C362474100E0000E72C /* HintCuciTanganVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F101C352474100E0000E72C /* HintCuciTanganVC.swift */; };
 		3F101C38247410300000E72C /* BerhasilCuciTanganVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F101C37247410300000E72C /* BerhasilCuciTanganVC.swift */; };
+		3F31D499247D0818000226E2 /* GameLalat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F31D498247D0818000226E2 /* GameLalat.storyboard */; };
+		3F31D49B247D0830000226E2 /* GameLalatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F31D49A247D0830000226E2 /* GameLalatVC.swift */; };
+		3F31D49D247D0845000226E2 /* HintGameLalatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F31D49C247D0845000226E2 /* HintGameLalatVC.swift */; };
+		3F31D49F247D085D000226E2 /* BerhasilGameLalatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F31D49E247D085D000226E2 /* BerhasilGameLalatVC.swift */; };
+		3F572FA4247C064F00A85141 /* SikatGigi.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F572FA3247C064F00A85141 /* SikatGigi.storyboard */; };
+		3F572FA6247C066600A85141 /* LangkahSikatGigiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F572FA5247C066600A85141 /* LangkahSikatGigiVC.swift */; };
+		3F572FA8247C067600A85141 /* SikatGigiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F572FA7247C067600A85141 /* SikatGigiVC.swift */; };
+		3F572FAA247C069700A85141 /* HintSikatGigiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F572FA9247C069700A85141 /* HintSikatGigiVC.swift */; };
+		3F572FAC247C070100A85141 /* BerhasilSikatGigiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F572FAB247C070100A85141 /* BerhasilSikatGigiVC.swift */; };
 		3FE9342D2472598400C0A769 /* CuciTanganVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE9342C2472598400C0A769 /* CuciTanganVC.swift */; };
 		3FE9342F247266A800C0A769 /* CuciTangan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE9342E247266A800C0A769 /* CuciTangan.storyboard */; };
 /* End PBXBuildFile section */
@@ -30,6 +39,15 @@
 		28A6A841246A8F1900FD04C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F101C352474100E0000E72C /* HintCuciTanganVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintCuciTanganVC.swift; sourceTree = "<group>"; };
 		3F101C37247410300000E72C /* BerhasilCuciTanganVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerhasilCuciTanganVC.swift; sourceTree = "<group>"; };
+		3F31D498247D0818000226E2 /* GameLalat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameLalat.storyboard; sourceTree = "<group>"; };
+		3F31D49A247D0830000226E2 /* GameLalatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLalatVC.swift; sourceTree = "<group>"; };
+		3F31D49C247D0845000226E2 /* HintGameLalatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintGameLalatVC.swift; sourceTree = "<group>"; };
+		3F31D49E247D085D000226E2 /* BerhasilGameLalatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerhasilGameLalatVC.swift; sourceTree = "<group>"; };
+		3F572FA3247C064F00A85141 /* SikatGigi.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SikatGigi.storyboard; sourceTree = "<group>"; };
+		3F572FA5247C066600A85141 /* LangkahSikatGigiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangkahSikatGigiVC.swift; sourceTree = "<group>"; };
+		3F572FA7247C067600A85141 /* SikatGigiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SikatGigiVC.swift; sourceTree = "<group>"; };
+		3F572FA9247C069700A85141 /* HintSikatGigiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintSikatGigiVC.swift; sourceTree = "<group>"; };
+		3F572FAB247C070100A85141 /* BerhasilSikatGigiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerhasilSikatGigiVC.swift; sourceTree = "<group>"; };
 		3FE9342C2472598400C0A769 /* CuciTanganVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuciTanganVC.swift; sourceTree = "<group>"; };
 		3FE9342E247266A800C0A769 /* CuciTangan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CuciTangan.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +88,15 @@
 				28A6A839246A8F1900FD04C8 /* Main.storyboard */,
 				3FE9342C2472598400C0A769 /* CuciTanganVC.swift */,
 				3FE9342E247266A800C0A769 /* CuciTangan.storyboard */,
+				3F572FA3247C064F00A85141 /* SikatGigi.storyboard */,
+				3F31D498247D0818000226E2 /* GameLalat.storyboard */,
+				3F31D49A247D0830000226E2 /* GameLalatVC.swift */,
+				3F31D49C247D0845000226E2 /* HintGameLalatVC.swift */,
+				3F31D49E247D085D000226E2 /* BerhasilGameLalatVC.swift */,
+				3F572FA5247C066600A85141 /* LangkahSikatGigiVC.swift */,
+				3F572FA7247C067600A85141 /* SikatGigiVC.swift */,
+				3F572FA9247C069700A85141 /* HintSikatGigiVC.swift */,
+				3F572FAB247C070100A85141 /* BerhasilSikatGigiVC.swift */,
 				3F101C37247410300000E72C /* BerhasilCuciTanganVC.swift */,
 				3F101C352474100E0000E72C /* HintCuciTanganVC.swift */,
 				28A6A83C246A8F1900FD04C8 /* Assets.xcassets */,
@@ -138,9 +165,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A6A840246A8F1900FD04C8 /* LaunchScreen.storyboard in Resources */,
+				3F572FA4247C064F00A85141 /* SikatGigi.storyboard in Resources */,
 				3FE9342F247266A800C0A769 /* CuciTangan.storyboard in Resources */,
 				28A6A83D246A8F1900FD04C8 /* Assets.xcassets in Resources */,
 				28A6A83B246A8F1900FD04C8 /* Main.storyboard in Resources */,
+				3F31D499247D0818000226E2 /* GameLalat.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,12 +180,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F31D49D247D0845000226E2 /* HintGameLalatVC.swift in Sources */,
 				28A6A838246A8F1900FD04C8 /* ViewController.swift in Sources */,
+				3F572FAC247C070100A85141 /* BerhasilSikatGigiVC.swift in Sources */,
+				3F572FAA247C069700A85141 /* HintSikatGigiVC.swift in Sources */,
+				3F572FA8247C067600A85141 /* SikatGigiVC.swift in Sources */,
 				28A6A834246A8F1900FD04C8 /* AppDelegate.swift in Sources */,
+				3F31D49F247D085D000226E2 /* BerhasilGameLalatVC.swift in Sources */,
+				3F572FA6247C066600A85141 /* LangkahSikatGigiVC.swift in Sources */,
 				28A6A836246A8F1900FD04C8 /* SceneDelegate.swift in Sources */,
 				3F101C38247410300000E72C /* BerhasilCuciTanganVC.swift in Sources */,
 				3FE9342D2472598400C0A769 /* CuciTanganVC.swift in Sources */,
 				3F101C362474100E0000E72C /* HintCuciTanganVC.swift in Sources */,
+				3F31D49B247D0830000226E2 /* GameLalatVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
