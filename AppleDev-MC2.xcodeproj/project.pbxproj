@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameCuciPiring.storyboard; sourceTree = "<group>"; };
+		257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = GameCuciPiring.storyboard; path = "AppleDev-MC2/GameCuciPiring.storyboard"; sourceTree = SOURCE_ROOT; };
 		257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCuciPiringVC.swift; sourceTree = "<group>"; };
 		25DDBB73247C4DB800061589 /* HintCuciPiringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintCuciPiringVC.swift; sourceTree = "<group>"; };
 		25DDBB75247C4DD200061589 /* BerhasilCuciPiringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerhasilCuciPiringVC.swift; sourceTree = "<group>"; };
@@ -45,31 +45,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2548D21124750D1F00FD92D5 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2548D21224750D2C00FD92D5 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */,
-				25DDBB73247C4DB800061589 /* HintCuciPiringVC.swift */,
-				25DDBB75247C4DD200061589 /* BerhasilCuciPiringVC.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		2548D21324750D3400FD92D5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		28A6A827246A8F1900FD04C8 = {
 			isa = PBXGroup;
 			children = (
@@ -89,9 +64,10 @@
 		28A6A832246A8F1900FD04C8 /* AppleDev-MC2 */ = {
 			isa = PBXGroup;
 			children = (
-				2548D21324750D3400FD92D5 /* Model */,
-				2548D21224750D2C00FD92D5 /* Controller */,
-				2548D21124750D1F00FD92D5 /* View */,
+				25DDBB73247C4DB800061589 /* HintCuciPiringVC.swift */,
+				257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */,
+				25DDBB75247C4DD200061589 /* BerhasilCuciPiringVC.swift */,
+				257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */,
 				28A6A833246A8F1900FD04C8 /* AppDelegate.swift */,
 				28A6A835246A8F1900FD04C8 /* SceneDelegate.swift */,
 				28A6A837246A8F1900FD04C8 /* ViewController.swift */,

@@ -171,20 +171,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.BasePopUp" translatesAutoresizingMaskIntoConstraints="NO" id="U6a-G6-omj">
-                                <rect key="frame" x="-82" y="295" width="579" height="307"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.HeaderPopUp" translatesAutoresizingMaskIntoConstraints="NO" id="GMC-zV-N1u">
-                                <rect key="frame" x="87" y="254" width="240" height="128"/>
+                                <rect key="frame" x="16" y="175" width="382" height="491"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Setelah selesai makan, piringnya langsung dicuci ya! Agar bakteri dalam piring tidak berkembang biak" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agX-MJ-tgI">
-                                <rect key="frame" x="107" y="451" width="200" height="126"/>
+                                <rect key="frame" x="35" y="425" width="345" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="popuplevel2mencucipiring" translatesAutoresizingMaskIntoConstraints="NO" id="eSD-B5-m8X">
+                                <rect key="frame" x="105" y="342" width="205" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.HeaderPopUp" translatesAutoresizingMaskIntoConstraints="NO" id="GMC-zV-N1u">
+                                <rect key="frame" x="68" y="156" width="278" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="cak-gX-YUz"/>
@@ -211,6 +215,7 @@
         <image name="kotoran5palingbawah" width="160" height="78"/>
         <image name="kototran6tengah" width="111" height="135"/>
         <image name="piring" width="234" height="234"/>
+        <image name="popuplevel2mencucipiring" width="209" height="129"/>
         <image name="sponge" width="185" height="202"/>
     </resources>
 </document>
