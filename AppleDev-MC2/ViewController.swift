@@ -16,5 +16,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func segueToChooseGame(_ sender: Any) {
+        
+    }
 }
 
