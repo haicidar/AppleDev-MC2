@@ -85,25 +85,6 @@ class GameCuciPiringVC: UIViewController {
         case .began, .changed:
             moveViewWithPanGesture(view: imgSpongeSender, sender: sender)
             
-//            if imgSpongeSender.frame.intersects(imgKotoran1.frame) {
-//                deleteImgKotoranView(view: imgKotoran1)
-//            }
-//            if imgSpongeSender.frame.intersects(imgKotoran2.frame){
-//                deleteImgKotoranView(view: imgKotoran2)
-//            }
-//            if imgSpongeSender.frame.intersects(imgKotoran3.frame){
-//                deleteImgKotoranView(view: imgKotoran3)
-//            }
-//            if imgSpongeSender.frame.intersects(imgKotoran4.frame){
-//                deleteImgKotoranView(view: imgKotoran4)
-//            }
-//            if imgSpongeSender.frame.intersects(imgKotoran5.frame){
-//                deleteImgKotoranView(view: imgKotoran5)
-//            }
-//            if imgSpongeSender.frame.intersects(imgKotoran6.frame){
-//                deleteImgKotoranView(view: imgKotoran6)
-//            }
-            
         case .ended:
             if imgSpongeSender.frame.intersects(imgKotoran1.frame) {
                 deleteImgKotoranView(view: imgKotoran1)
