@@ -14,6 +14,7 @@
 		25D7F7EE246D363A008F8DD4 /* ChooseGameCategory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D7F7ED246D363A008F8DD4 /* ChooseGameCategory.storyboard */; };
 		25D7F7F0246D3654008F8DD4 /* ChooseGameCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7F7EF246D3654008F8DD4 /* ChooseGameCategoryVC.swift */; };
 		25D7F7F3246D9193008F8DD4 /* CategoryGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7F7F2246D9193008F8DD4 /* CategoryGameCell.swift */; };
+<<<<<<< HEAD
 		257ABEDE2473BC6A00C712DB /* GameCuciPiring.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */; };
 		257ABEE02473BC7B00C712DB /* GameCuciPiringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */; };
 <<<<<<< HEAD
@@ -23,6 +24,8 @@
 >>>>>>> parent of 6627a5f... Merge pull request #1 from haicidar/GameMencuciPiring
 =======
 >>>>>>> parent of 8ac8783... finished all game components and added the hints
+=======
+>>>>>>> parent of 28575e8... Merge branch 'master' into ChooseGameCategory
 		28A6A834246A8F1900FD04C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6A833246A8F1900FD04C8 /* AppDelegate.swift */; };
 		28A6A836246A8F1900FD04C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6A835246A8F1900FD04C8 /* SceneDelegate.swift */; };
 		28A6A838246A8F1900FD04C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6A837246A8F1900FD04C8 /* ViewController.swift */; };
@@ -39,6 +42,7 @@
 		25D7F7ED246D363A008F8DD4 /* ChooseGameCategory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChooseGameCategory.storyboard; sourceTree = "<group>"; };
 		25D7F7EF246D3654008F8DD4 /* ChooseGameCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseGameCategoryVC.swift; sourceTree = "<group>"; };
 		25D7F7F2246D9193008F8DD4 /* CategoryGameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGameCell.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameCuciPiring.storyboard; sourceTree = "<group>"; };
 		257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCuciPiringVC.swift; sourceTree = "<group>"; };
 <<<<<<< HEAD
@@ -48,6 +52,8 @@
 >>>>>>> parent of 6627a5f... Merge pull request #1 from haicidar/GameMencuciPiring
 =======
 >>>>>>> parent of 8ac8783... finished all game components and added the hints
+=======
+>>>>>>> parent of 28575e8... Merge branch 'master' into ChooseGameCategory
 		28A6A830246A8F1900FD04C8 /* AppleDev-MC2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleDev-MC2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A6A833246A8F1900FD04C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28A6A835246A8F1900FD04C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,27 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				256425E7246EA1E000568A02 /* GameCategory.swift */,
-		2548D21124750D1F00FD92D5 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2548D21224750D2C00FD92D5 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */,
-				25DDBB73247C4DB800061589 /* HintCuciPiringVC.swift */,
-				25DDBB75247C4DD200061589 /* BerhasilCuciPiringVC.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		2548D21324750D3400FD92D5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -141,6 +126,12 @@
 		28A6A832246A8F1900FD04C8 /* AppleDev-MC2 */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+=======
+				259BA548246DA70300B4795B /* View */,
+				259BA547246DA6FC00B4795B /* Controller */,
+				25D7F7F1246D81A4008F8DD4 /* Model */,
+>>>>>>> parent of 28575e8... Merge branch 'master' into ChooseGameCategory
 				28A6A833246A8F1900FD04C8 /* AppDelegate.swift */,
 				25D7F7F2246D9193008F8DD4 /* CategoryGameCell.swift */,
 				28A6A835246A8F1900FD04C8 /* SceneDelegate.swift */,
@@ -231,9 +222,12 @@
 				25D7F7F3246D9193008F8DD4 /* CategoryGameCell.swift in Sources */,
 				28A6A838246A8F1900FD04C8 /* ViewController.swift in Sources */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 				257ABEE02473BC7B00C712DB /* GameCuciPiringVC.swift in Sources */,
 >>>>>>> parent of 8ac8783... finished all game components and added the hints
+=======
+>>>>>>> parent of 28575e8... Merge branch 'master' into ChooseGameCategory
 				28A6A834246A8F1900FD04C8 /* AppDelegate.swift in Sources */,
 				256425E8246EA1E000568A02 /* GameCategory.swift in Sources */,
 				256425EE246EE5E900568A02 /* DetailGameCategoryVC.swift in Sources */,
