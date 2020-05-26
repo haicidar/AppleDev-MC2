@@ -19,6 +19,10 @@
 		28A6A83B246A8F1900FD04C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A6A839246A8F1900FD04C8 /* Main.storyboard */; };
 		28A6A83D246A8F1900FD04C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A6A83C246A8F1900FD04C8 /* Assets.xcassets */; };
 		28A6A840246A8F1900FD04C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A6A83E246A8F1900FD04C8 /* LaunchScreen.storyboard */; };
+		28F389D7247D116A000AE610 /* BerhasilCuciPiringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F389D6247D1169000AE610 /* BerhasilCuciPiringVC.swift */; };
+		28F389DB247D1199000AE610 /* GameCuciPiring.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F389D8247D1199000AE610 /* GameCuciPiring.storyboard */; };
+		28F389DC247D1199000AE610 /* HintCuciPiringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F389D9247D1199000AE610 /* HintCuciPiringVC.swift */; };
+		28F389DD247D1199000AE610 /* GameCuciPiringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F389DA247D1199000AE610 /* GameCuciPiringVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		28A6A83C246A8F1900FD04C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28A6A83F246A8F1900FD04C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28A6A841246A8F1900FD04C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F389D6247D1169000AE610 /* BerhasilCuciPiringVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BerhasilCuciPiringVC.swift; sourceTree = "<group>"; };
+		28F389D8247D1199000AE610 /* GameCuciPiring.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GameCuciPiring.storyboard; sourceTree = "<group>"; };
+		28F389D9247D1199000AE610 /* HintCuciPiringVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HintCuciPiringVC.swift; sourceTree = "<group>"; };
+		28F389DA247D1199000AE610 /* GameCuciPiringVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCuciPiringVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +107,11 @@
 				256425EB246EE39F00568A02 /* DetailGameCategory.storyboard */,
 				256425ED246EE5E900568A02 /* DetailGameCategoryVC.swift */,
 				25D7F7F2246D9193008F8DD4 /* CategoryGameCell.swift */,
+				28F389D8247D1199000AE610 /* GameCuciPiring.storyboard */,
+				28F389DA247D1199000AE610 /* GameCuciPiringVC.swift */,
+				28F389D9247D1199000AE610 /* HintCuciPiringVC.swift */,
+				28F389D6247D1169000AE610 /* BerhasilCuciPiringVC.swift */,
 				28A6A835246A8F1900FD04C8 /* SceneDelegate.swift */,
-				257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */,
-				25DDBB73247C4DB800061589 /* HintCuciPiringVC.swift */,
-				25DDBB75247C4DD200061589 /* BerhasilCuciPiringVC.swift */,
-				257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */,
 				28A6A837246A8F1900FD04C8 /* ViewController.swift */,
 				28A6A839246A8F1900FD04C8 /* Main.storyboard */,
 				28A6A83C246A8F1900FD04C8 /* Assets.xcassets */,
@@ -174,6 +182,7 @@
 				28A6A840246A8F1900FD04C8 /* LaunchScreen.storyboard in Resources */,
 				256425EC246EE39F00568A02 /* DetailGameCategory.storyboard in Resources */,
 				25D7F7EE246D363A008F8DD4 /* ChooseGameCategory.storyboard in Resources */,
+				28F389DB247D1199000AE610 /* GameCuciPiring.storyboard in Resources */,
 				28A6A83D246A8F1900FD04C8 /* Assets.xcassets in Resources */,
 				28A6A83B246A8F1900FD04C8 /* Main.storyboard in Resources */,
 			);
@@ -191,8 +200,11 @@
 				28A6A834246A8F1900FD04C8 /* AppDelegate.swift in Sources */,
 				256425E8246EA1E000568A02 /* GameCategory.swift in Sources */,
 				256425EE246EE5E900568A02 /* DetailGameCategoryVC.swift in Sources */,
+				28F389D7247D116A000AE610 /* BerhasilCuciPiringVC.swift in Sources */,
 				28A6A836246A8F1900FD04C8 /* SceneDelegate.swift in Sources */,
+				28F389DD247D1199000AE610 /* GameCuciPiringVC.swift in Sources */,
 				25D7F7F0246D3654008F8DD4 /* ChooseGameCategoryVC.swift in Sources */,
+				28F389DC247D1199000AE610 /* HintCuciPiringVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

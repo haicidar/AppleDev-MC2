@@ -33,10 +33,10 @@
             </objects>
             <point key="canvasLocation" x="139" y="137"/>
         </scene>
-        <!--ChooseGameCategory-->
+        <!--GameCuciPiring-->
         <scene sceneID="JzP-QV-vPH">
             <objects>
-                <viewControllerPlaceholder storyboardName="ChooseGameCategory" id="QD0-Ql-aKE" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="GameCuciPiring" id="QD0-Ql-aKE" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="ONt-l1-lvj"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J9A-V1-aQw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
