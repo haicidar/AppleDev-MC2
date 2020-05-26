@@ -26,19 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-
-		257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = GameCuciPiring.storyboard; path = "AppleDev-MC2/GameCuciPiring.storyboard"; sourceTree = SOURCE_ROOT; };
-		257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCuciPiringVC.swift; sourceTree = "<group>"; };
-		25DDBB73247C4DB800061589 /* HintCuciPiringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintCuciPiringVC.swift; sourceTree = "<group>"; };
-		25DDBB75247C4DD200061589 /* BerhasilCuciPiringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerhasilCuciPiringVC.swift; sourceTree = "<group>"; };
-
 		256425E7246EA1E000568A02 /* GameCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCategory.swift; sourceTree = "<group>"; };
 		256425EB246EE39F00568A02 /* DetailGameCategory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailGameCategory.storyboard; sourceTree = "<group>"; };
 		256425ED246EE5E900568A02 /* DetailGameCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGameCategoryVC.swift; sourceTree = "<group>"; };
 		25D7F7ED246D363A008F8DD4 /* ChooseGameCategory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChooseGameCategory.storyboard; sourceTree = "<group>"; };
 		25D7F7EF246D3654008F8DD4 /* ChooseGameCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseGameCategoryVC.swift; sourceTree = "<group>"; };
 		25D7F7F2246D9193008F8DD4 /* CategoryGameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGameCell.swift; sourceTree = "<group>"; };
-
 		28A6A830246A8F1900FD04C8 /* AppleDev-MC2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleDev-MC2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A6A833246A8F1900FD04C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28A6A835246A8F1900FD04C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +57,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-
 		259BA547246DA6FC00B4795B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +78,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-
 		28A6A827246A8F1900FD04C8 = {
 			isa = PBXGroup;
 			children = (
@@ -106,16 +97,9 @@
 		28A6A832246A8F1900FD04C8 /* AppleDev-MC2 */ = {
 			isa = PBXGroup;
 			children = (
-
-				25DDBB73247C4DB800061589 /* HintCuciPiringVC.swift */,
-				257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */,
-				25DDBB75247C4DD200061589 /* BerhasilCuciPiringVC.swift */,
-				257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */,
-
 				259BA548246DA70300B4795B /* View */,
 				259BA547246DA6FC00B4795B /* Controller */,
 				25D7F7F1246D81A4008F8DD4 /* Model */,
-
 				28A6A833246A8F1900FD04C8 /* AppDelegate.swift */,
 				256425E7246EA1E000568A02 /* GameCategory.swift */,
 				25D7F7EF246D3654008F8DD4 /* ChooseGameCategoryVC.swift */,
