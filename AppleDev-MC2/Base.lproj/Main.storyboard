@@ -13,41 +13,12 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<<<<<<< HEAD
                         <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-=======
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7aO-WP-rSl">
-                                <rect key="frame" x="184" y="433" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="segueToChooseGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y8S-bM-UOn"/>
-                                    <segue destination="QD0-Ql-aKE" kind="presentation" modalPresentationStyle="fullScreen" id="jfu-xs-4Uk"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
->>>>>>> parent of 28575e8... Merge branch 'master' into ChooseGameCategory
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< HEAD
-=======
-            <point key="canvasLocation" x="139" y="137"/>
-        </scene>
-        <!--ChooseGameCategory-->
-        <scene sceneID="JzP-QV-vPH">
-            <objects>
-                <viewControllerPlaceholder storyboardName="ChooseGameCategory" id="QD0-Ql-aKE" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="ONt-l1-lvj"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="J9A-V1-aQw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="668" y="91"/>
->>>>>>> parent of 28575e8... Merge branch 'master' into ChooseGameCategory
         </scene>
     </scenes>
 </document>
