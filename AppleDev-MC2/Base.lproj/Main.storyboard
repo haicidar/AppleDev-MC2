@@ -35,6 +35,9 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 28575e8... Merge branch 'master' into ChooseGameCategory
             <point key="canvasLocation" x="139" y="137"/>
         </scene>
         <!--ChooseGameCategory-->
@@ -46,8 +49,11 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J9A-V1-aQw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="668" y="91"/>
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 6627a5f... Merge pull request #1 from haicidar/GameMencuciPiring
+=======
+>>>>>>> parent of 28575e8... Merge branch 'master' into ChooseGameCategory
         </scene>
     </scenes>
 </document>
