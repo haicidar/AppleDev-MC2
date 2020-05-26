@@ -66,7 +66,6 @@
 		25D7F7F1246D81A4008F8DD4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				256425E7246EA1E000568A02 /* GameCategory.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -94,6 +93,11 @@
 				259BA547246DA6FC00B4795B /* Controller */,
 				25D7F7F1246D81A4008F8DD4 /* Model */,
 				28A6A833246A8F1900FD04C8 /* AppDelegate.swift */,
+				256425E7246EA1E000568A02 /* GameCategory.swift */,
+				25D7F7EF246D3654008F8DD4 /* ChooseGameCategoryVC.swift */,
+				25D7F7ED246D363A008F8DD4 /* ChooseGameCategory.storyboard */,
+				256425EB246EE39F00568A02 /* DetailGameCategory.storyboard */,
+				256425ED246EE5E900568A02 /* DetailGameCategoryVC.swift */,
 				25D7F7F2246D9193008F8DD4 /* CategoryGameCell.swift */,
 				28A6A835246A8F1900FD04C8 /* SceneDelegate.swift */,
 				257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */,
