@@ -48,7 +48,6 @@
 		2548D21124750D1F00FD92D5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -56,9 +55,6 @@
 		2548D21224750D2C00FD92D5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */,
-				25DDBB73247C4DB800061589 /* HintCuciPiringVC.swift */,
-				25DDBB75247C4DD200061589 /* BerhasilCuciPiringVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -94,6 +90,10 @@
 				2548D21124750D1F00FD92D5 /* View */,
 				28A6A833246A8F1900FD04C8 /* AppDelegate.swift */,
 				28A6A835246A8F1900FD04C8 /* SceneDelegate.swift */,
+				257ABEDF2473BC7B00C712DB /* GameCuciPiringVC.swift */,
+				25DDBB73247C4DB800061589 /* HintCuciPiringVC.swift */,
+				25DDBB75247C4DD200061589 /* BerhasilCuciPiringVC.swift */,
+				257ABEDD2473BC6A00C712DB /* GameCuciPiring.storyboard */,
 				28A6A837246A8F1900FD04C8 /* ViewController.swift */,
 				28A6A839246A8F1900FD04C8 /* Main.storyboard */,
 				28A6A83C246A8F1900FD04C8 /* Assets.xcassets */,
