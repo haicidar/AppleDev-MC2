@@ -43,17 +43,29 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EU-G1-coq">
                                 <rect key="frame" x="20" y="275" width="382" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="button.LevelEnabled1"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <state key="normal" title="title" backgroundImage="buttonBase.LevelEnabled"/>
+                                <connections>
+                                    <action selector="selectLevel1:" destination="354-iO-WXm" eventType="touchUpInside" id="Bjt-bk-ZGQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utI-ZR-Wuh">
                                 <rect key="frame" x="16" y="370" width="382" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="button.LevelDisabled2"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <state key="normal" title="title" backgroundImage="buttonBase.LevelEnabled"/>
+                                <connections>
+                                    <action selector="selectLevel2:" destination="354-iO-WXm" eventType="touchUpInside" id="QIc-7e-9xm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ix0-X6-tdL">
                                 <rect key="frame" x="16" y="474" width="382" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="button.LevelDisabled3"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <state key="normal" title="title" backgroundImage="buttonBase.LevelEnabled"/>
+                                <connections>
+                                    <action selector="selectLevel3:" destination="354-iO-WXm" eventType="touchUpInside" id="6lE-HK-tAz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -64,6 +76,9 @@
                         <outlet property="detailGameDescription" destination="7sa-jQ-A74" id="AqZ-mG-mTg"/>
                         <outlet property="detailGameImage" destination="Uao-E4-WtF" id="VMF-BZ-jO7"/>
                         <outlet property="detailGameTitle" destination="pso-1v-P4D" id="00b-hS-gcm"/>
+                        <outletCollection property="detailGameLevel" destination="3EU-G1-coq" collectionClass="NSMutableArray" id="oUK-Ka-bXZ"/>
+                        <outletCollection property="detailGameLevel" destination="utI-ZR-Wuh" collectionClass="NSMutableArray" id="auX-5d-HzL"/>
+                        <outletCollection property="detailGameLevel" destination="ix0-X6-tdL" collectionClass="NSMutableArray" id="vV6-4d-7Lz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Coq-5a-DtJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -90,9 +105,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="button.LevelDisabled2" width="382" height="58"/>
-        <image name="button.LevelDisabled3" width="382" height="58"/>
-        <image name="button.LevelEnabled1" width="382" height="58"/>
+        <image name="buttonBase.LevelEnabled" width="382" height="58"/>
         <image name="icon.Back" width="24" height="24"/>
     </resources>
 </document>

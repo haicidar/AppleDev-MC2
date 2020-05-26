@@ -20,9 +20,7 @@ class HintCuciPiringVC: UIViewController {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.dismissHint))
         view.addGestureRecognizer(tap)
     }
-    
     @objc func dismissHint(){
            self.dismiss(animated: true, completion: nil)
-
     }
 }
