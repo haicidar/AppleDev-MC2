@@ -15,13 +15,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7aO-WP-rSl">
-                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZx-E1-lYw">
+                                <rect key="frame" x="181" y="432" width="54" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="segueToChooseGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y8S-bM-UOn"/>
-                                    <segue destination="QD0-Ql-aKE" kind="presentation" modalPresentationStyle="fullScreen" id="jfu-xs-4Uk"/>
+                                    <segue destination="9fY-ib-6ey" kind="presentation" modalPresentationStyle="fullScreen" id="F66-hh-dfJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -31,17 +31,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="137"/>
+            <point key="canvasLocation" x="139" y="138"/>
         </scene>
-        <!--ChooseGameCategory-->
-        <scene sceneID="JzP-QV-vPH">
+        <!--GameCuciPiring-->
+        <scene sceneID="Rec-70-VLT">
             <objects>
-                <viewControllerPlaceholder storyboardName="ChooseGameCategory" id="QD0-Ql-aKE" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="ONt-l1-lvj"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="J9A-V1-aQw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="GameCuciPiring" id="9fY-ib-6ey" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pqu-7J-VnQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="668" y="91"/>
+            <point key="canvasLocation" x="744" y="137"/>
         </scene>
     </scenes>
 </document>
