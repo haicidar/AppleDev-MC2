@@ -23,16 +23,5 @@ class DetailGameCategoryVC: UIViewController {
         detailGameTitle.text = categories[index].title
         detailGameImage.image = UIImage(named: categories[index].images)
         detailGameDescription.text = categories[index].details
-        
-        self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "icon.Back")
-        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage(named: "icon.Back")
-        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain, target: nil, action: nil)
     }
-    
-//    func customizeNavBar() {
-//        self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "icon.Back")
-//        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage(named: "icon.Back")
-//        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain, target: nil, action: nil)
-//    }
-//
- }
+}
