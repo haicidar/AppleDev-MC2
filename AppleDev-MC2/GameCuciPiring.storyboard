@@ -97,6 +97,10 @@
                                 <color key="textColor" red="0.94572299719999997" green="0.63361436130000004" blue="0.062193699179999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clinkclink" translatesAutoresizingMaskIntoConstraints="NO" id="qSz-1h-OcG">
+                                <rect key="frame" x="60" y="250" width="249" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Xza-qZ-a6X"/>
@@ -104,6 +108,7 @@
                     <connections>
                         <outlet property="buttonHint" destination="rXf-C3-ItM" id="GQT-kk-HJm"/>
                         <outlet property="hintLabel" destination="8fy-Ps-xKP" id="l3L-4Y-qON"/>
+                        <outlet property="imgClink" destination="qSz-1h-OcG" id="Ln6-Bx-e1L"/>
                         <outlet property="imgKotoran1" destination="W2c-DM-Do2" id="C4O-rW-6Ki"/>
                         <outlet property="imgKotoran2" destination="jDz-l0-SDB" id="RNj-Kq-OaY"/>
                         <outlet property="imgKotoran3" destination="Cx2-AC-h0r" id="BjK-hc-EB6"/>
@@ -206,6 +211,7 @@
         <image name="asset.HintBase" width="321" height="141"/>
         <image name="bgcucipiring" width="414" height="393"/>
         <image name="button.Hint" width="382" height="44"/>
+        <image name="clinkclink" width="208" height="226"/>
         <image name="icon.Back" width="24" height="24"/>
         <image name="icon.Hint" width="59" height="59"/>
         <image name="kotoran1paling kiri" width="70" height="266"/>

@@ -10,6 +10,7 @@ import UIKit
 
 class GameCuciPiringVC: UIViewController {
     
+    @IBOutlet weak var imgClink: UIImageView!
     @IBOutlet weak var buttonHint: UIButton!
     @IBOutlet weak var hintLabel: UILabel!
     @IBOutlet weak var imgKotoran6: UIImageView!
@@ -33,6 +34,7 @@ class GameCuciPiringVC: UIViewController {
         imgKotoran1Origin = imgKotoran1.frame.origin
         view.bringSubviewToFront(imgSponge)
         hintLabel.text = "\(hintRemaining)"
+        imgClink.isHidden = true
     }
     
 //    @IBAction func handlePan(_ gesture: UIPanGestureRecognizer) {
