@@ -67,9 +67,9 @@ class DetailGameCategoryVC: UIViewController {
     @IBAction func selectLevel3(_ sender: UIButton) {
         var name = "GameMakan2"
         if index == 0{
-            name = "SikatGigi"
-            let storyboard = UIStoryboard(name: name, bundle: nil)
-            let myVC = storyboard.instantiateViewController(withIdentifier: name) as! SikatGigiVC
+            name = "LangkahSikatGigi"
+            let storyboard = UIStoryboard(name: "SikatGigi", bundle: nil)
+            let myVC = storyboard.instantiateViewController(withIdentifier: name) as! LangkahSikatGigiVC
             myVC.modalPresentationStyle = .overCurrentContext
             self.present(myVC, animated: true, completion: nil)
         } else {
