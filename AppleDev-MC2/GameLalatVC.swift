@@ -26,10 +26,12 @@ class GameLalatVC: UIViewController {
     
     @IBOutlet weak var backButton: UIButton!
     @IBAction func goingBack(_ sender: Any) {
-        //Disesuaikan dengan Page Pilih Level
-              /*let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-              let nextViewController = storyBoard.instantiateViewControllerWithIdentifier("nextView") as NextViewController
-              self.presentViewController(nextViewController, animated:true, completion:nil)*/
+        let storyboard = UIStoryboard(name: "DetailGameCategory", bundle: nil)
+        let myVC = storyboard.instantiateViewController(withIdentifier: "DetailGameCategoryVC") as! DetailGameCategoryVC
+        myVC.index = 1
+        myVC.categories = GameCategory.createGameCategory()
+        myVC.modalPresentationStyle = .overCurrentContext
+        self.present(myVC, animated: true, completion: nil)
     }
     
     
@@ -41,8 +43,8 @@ class GameLalatVC: UIViewController {
             attemptRemaining-=1
             hintLabel.text = "\(attemptRemaining)"
             print(attemptRemaining)
-            let storyBoard : UIStoryboard = UIStoryboard(name: "CuciTangan", bundle:nil)
-            let nextViewController = storyBoard.instantiateViewController(withIdentifier: "HintCuciTangan")
+            let storyBoard : UIStoryboard = UIStoryboard(name: "GameLalat", bundle:nil)
+            let nextViewController = storyBoard.instantiateViewController(withIdentifier: "HintGameLalat")
             nextViewController.modalPresentationStyle = .overCurrentContext
             self.present(nextViewController, animated:true, completion:nil)
     }

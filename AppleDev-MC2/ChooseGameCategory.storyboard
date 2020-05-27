@@ -10,7 +10,7 @@
         <!--Choose Game CategoryVC-->
         <scene sceneID="Yzz-Yg-KYf">
             <objects>
-                <viewController id="nvU-o4-zB7" customClass="ChooseGameCategoryVC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChooseGameCategory" id="nvU-o4-zB7" customClass="ChooseGameCategoryVC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dI5-8B-pWn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

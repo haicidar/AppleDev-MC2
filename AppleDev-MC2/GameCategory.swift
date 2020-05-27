@@ -14,13 +14,6 @@ struct GameCategory {
     let images: String
 }
 
-struct GameLevel {
-    let tag: Int
-    let game: String
-    let view: Any
-    let title: String
-}
-
 extension GameCategory {
     static func createGameCategory() -> [GameCategory] {
         return [GameCategory(title: "Hati-hati banyak kuman!",
@@ -30,13 +23,5 @@ extension GameCategory {
                              details: "Kruyuk... Wah, ada suara perut lapar! Ini waktunya kita makan!  Tapi, perhatikan baik-baik makananmu, ya…",
                              images: "image.Category2.png")
         ]
-    }
-}
-
-extension GameLevel{
-    static func createGameLevel() -> [GameLevel]{
-        return [GameLevel(tag: 0, game: "CuciTangan", view: CuciTanganVC.self, title: "coba"),
-                GameLevel(tag: 1, game: "SikatGigi", view: SikatGigiVC.self, title: "coba2"),
-                GameLevel(tag: 2, game: "GameLalat", view: GameLalatVC.self, title: "coba3")]
     }
 }

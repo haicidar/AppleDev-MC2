@@ -37,6 +37,16 @@
 		28F389F7247D89F1000AE610 /* SikatGigi.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F389E9247D89F1000AE610 /* SikatGigi.storyboard */; };
 		28F389F8247D89F1000AE610 /* BerhasilGameLalatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F389EA247D89F1000AE610 /* BerhasilGameLalatVC.swift */; };
 		28F389F9247D89F1000AE610 /* BerhasilSikatGigiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F389EB247D89F1000AE610 /* BerhasilSikatGigiVC.swift */; };
+		28F389FF247DEE97000AE610 /* HintGameMakan1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F389FB247DEE97000AE610 /* HintGameMakan1VC.swift */; };
+		28F38A00247DEE97000AE610 /* BerhasilGameMakan1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F389FC247DEE97000AE610 /* BerhasilGameMakan1VC.swift */; };
+		28F38A01247DEE97000AE610 /* GameMakan1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F389FD247DEE97000AE610 /* GameMakan1VC.swift */; };
+		28F38A03247DEF03000AE610 /* GameMakan1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F38A02247DEF03000AE610 /* GameMakan1.storyboard */; };
+		28F38A09247E087B000AE610 /* GameMakan2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F38A04247E087B000AE610 /* GameMakan2VC.swift */; };
+		28F38A0A247E087B000AE610 /* BerhasilGameMakan2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F38A05247E087B000AE610 /* BerhasilGameMakan2VC.swift */; };
+		28F38A0B247E087B000AE610 /* HintGameMakan2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F38A06247E087B000AE610 /* HintGameMakan2VC.swift */; };
+		28F38A0C247E087B000AE610 /* GameMakan2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F38A07247E087B000AE610 /* GameMakan2.swift */; };
+		28F38A0D247E087B000AE610 /* GameMakan2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F38A08247E087B000AE610 /* GameMakan2.storyboard */; };
+		28F38A0F247E0D49000AE610 /* GameMakan1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F38A0E247E0D49000AE610 /* GameMakan1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +82,16 @@
 		28F389E9247D89F1000AE610 /* SikatGigi.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SikatGigi.storyboard; sourceTree = "<group>"; };
 		28F389EA247D89F1000AE610 /* BerhasilGameLalatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BerhasilGameLalatVC.swift; sourceTree = "<group>"; };
 		28F389EB247D89F1000AE610 /* BerhasilSikatGigiVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BerhasilSikatGigiVC.swift; sourceTree = "<group>"; };
+		28F389FB247DEE97000AE610 /* HintGameMakan1VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HintGameMakan1VC.swift; sourceTree = "<group>"; };
+		28F389FC247DEE97000AE610 /* BerhasilGameMakan1VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BerhasilGameMakan1VC.swift; sourceTree = "<group>"; };
+		28F389FD247DEE97000AE610 /* GameMakan1VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMakan1VC.swift; sourceTree = "<group>"; };
+		28F38A02247DEF03000AE610 /* GameMakan1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GameMakan1.storyboard; sourceTree = "<group>"; };
+		28F38A04247E087B000AE610 /* GameMakan2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMakan2VC.swift; sourceTree = "<group>"; };
+		28F38A05247E087B000AE610 /* BerhasilGameMakan2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BerhasilGameMakan2VC.swift; sourceTree = "<group>"; };
+		28F38A06247E087B000AE610 /* HintGameMakan2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HintGameMakan2VC.swift; sourceTree = "<group>"; };
+		28F38A07247E087B000AE610 /* GameMakan2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMakan2.swift; sourceTree = "<group>"; };
+		28F38A08247E087B000AE610 /* GameMakan2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GameMakan2.storyboard; sourceTree = "<group>"; };
+		28F38A0E247E0D49000AE610 /* GameMakan1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameMakan1.swift; path = ../../GameMakan1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +162,17 @@
 				28F389E0247D89F1000AE610 /* CuciTangan.storyboard */,
 				28F389E7247D89F1000AE610 /* CuciTanganVC.swift */,
 				28F389E6247D89F1000AE610 /* GameLalat.storyboard */,
+				28F38A05247E087B000AE610 /* BerhasilGameMakan2VC.swift */,
+				28F38A08247E087B000AE610 /* GameMakan2.storyboard */,
+				28F38A07247E087B000AE610 /* GameMakan2.swift */,
+				28F38A04247E087B000AE610 /* GameMakan2VC.swift */,
+				28F38A06247E087B000AE610 /* HintGameMakan2VC.swift */,
 				28F389E1247D89F1000AE610 /* GameLalat.swift */,
+				28F389FC247DEE97000AE610 /* BerhasilGameMakan1VC.swift */,
+				28F38A02247DEF03000AE610 /* GameMakan1.storyboard */,
+				28F38A0E247E0D49000AE610 /* GameMakan1.swift */,
+				28F389FD247DEE97000AE610 /* GameMakan1VC.swift */,
+				28F389FB247DEE97000AE610 /* HintGameMakan1VC.swift */,
 				28F389DE247D89F0000AE610 /* GameLalatVC.swift */,
 				28F389E8247D89F1000AE610 /* HintCuciTanganVC.swift */,
 				28F389E2247D89F1000AE610 /* HintGameLalatVC.swift */,
@@ -224,7 +254,9 @@
 				28A6A840246A8F1900FD04C8 /* LaunchScreen.storyboard in Resources */,
 				28F389F7247D89F1000AE610 /* SikatGigi.storyboard in Resources */,
 				256425EC246EE39F00568A02 /* DetailGameCategory.storyboard in Resources */,
+				28F38A03247DEF03000AE610 /* GameMakan1.storyboard in Resources */,
 				25D7F7EE246D363A008F8DD4 /* ChooseGameCategory.storyboard in Resources */,
+				28F38A0D247E087B000AE610 /* GameMakan2.storyboard in Resources */,
 				28F389F4247D89F1000AE610 /* GameLalat.storyboard in Resources */,
 				28F389DB247D1199000AE610 /* GameCuciPiring.storyboard in Resources */,
 				28A6A83D246A8F1900FD04C8 /* Assets.xcassets in Resources */,
@@ -243,9 +275,12 @@
 				25D7F7F3246D9193008F8DD4 /* CategoryGameCell.swift in Sources */,
 				28A6A838246A8F1900FD04C8 /* ViewController.swift in Sources */,
 				28F389F6247D89F1000AE610 /* HintCuciTanganVC.swift in Sources */,
+				28F38A00247DEE97000AE610 /* BerhasilGameMakan1VC.swift in Sources */,
 				28A6A834246A8F1900FD04C8 /* AppDelegate.swift in Sources */,
+				28F38A0B247E087B000AE610 /* HintGameMakan2VC.swift in Sources */,
 				256425E8246EA1E000568A02 /* GameCategory.swift in Sources */,
 				28F389F0247D89F1000AE610 /* HintGameLalatVC.swift in Sources */,
+				28F38A01247DEE97000AE610 /* GameMakan1VC.swift in Sources */,
 				256425EE246EE5E900568A02 /* DetailGameCategoryVC.swift in Sources */,
 				28F389F8247D89F1000AE610 /* BerhasilGameLalatVC.swift in Sources */,
 				28F389D7247D116A000AE610 /* BerhasilCuciPiringVC.swift in Sources */,
@@ -257,7 +292,12 @@
 				28F389DD247D1199000AE610 /* GameCuciPiringVC.swift in Sources */,
 				25D7F7F0246D3654008F8DD4 /* ChooseGameCategoryVC.swift in Sources */,
 				28F389F1247D89F1000AE610 /* SikatGigiVC.swift in Sources */,
+				28F389FF247DEE97000AE610 /* HintGameMakan1VC.swift in Sources */,
+				28F38A09247E087B000AE610 /* GameMakan2VC.swift in Sources */,
 				28F389ED247D89F1000AE610 /* BerhasilCuciTanganVC.swift in Sources */,
+				28F38A0F247E0D49000AE610 /* GameMakan1.swift in Sources */,
+				28F38A0C247E087B000AE610 /* GameMakan2.swift in Sources */,
+				28F38A0A247E087B000AE610 /* BerhasilGameMakan2VC.swift in Sources */,
 				28F389F9247D89F1000AE610 /* BerhasilSikatGigiVC.swift in Sources */,
 				28F389DC247D1199000AE610 /* HintCuciPiringVC.swift in Sources */,
 				28F389EC247D89F1000AE610 /* GameLalatVC.swift in Sources */,

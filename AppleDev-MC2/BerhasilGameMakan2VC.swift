@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BerhasilGameLalatVC: UIViewController {
+class BerhasilGameMakan2VC: UIViewController {
 
    override func viewDidLoad() {
            super.viewDidLoad()
@@ -19,12 +19,10 @@ class BerhasilGameLalatVC: UIViewController {
        
        //function for redirect to the next level after click Button on the view
        @IBAction func toNextLevel(_ sender: Any) {
-        
-        
-        let storyboard = UIStoryboard(name: "GameMakan1", bundle: nil)
-        let myVC = storyboard.instantiateViewController(withIdentifier: "GameMakan1") as! GameMakan1VC
-        myVC.modalPresentationStyle = .overCurrentContext
-        self.present(myVC, animated: true, completion: nil)
+           let storyboard = UIStoryboard(name: "ChooseGameCategory", bundle: nil)
+           let myVC = storyboard.instantiateViewController(withIdentifier: "ChooseGameCategory") as! ChooseGameCategoryVC
+           myVC.modalPresentationStyle = .overCurrentContext
+           self.present(myVC, animated: true, completion: nil)
         /*
         let storyBoard : UIStoryboard = UIStoryboard(name: "CuciTangan", bundle:nil)
            let nextViewController = storyBoard.instantiateViewController(withIdentifier: "CuciTangan")

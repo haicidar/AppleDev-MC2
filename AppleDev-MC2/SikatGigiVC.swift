@@ -258,6 +258,12 @@ class SikatGigiVC: UIViewController {
     
     @IBOutlet weak var backButton: UIButton!
     @IBAction func goingBack(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "DetailGameCategory", bundle: nil)
+        let myVC = storyboard.instantiateViewController(withIdentifier: "DetailGameCategoryVC") as! DetailGameCategoryVC
+        myVC.index = 0
+        myVC.categories = GameCategory.createGameCategory()
+        myVC.modalPresentationStyle = .overCurrentContext
+        self.present(myVC, animated: true, completion: nil)
         //Disesuaikan dengan Page Pilih Level
         /*let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
         let nextViewController = storyBoard.instantiateViewControllerWithIdentifier("nextView") as NextViewController

@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--GameLalat-->
+        <!--GameMakan2-->
         <scene sceneID="MCN-vJ-E8q">
             <objects>
-                <viewController storyboardIdentifier="GameLalat" title="GameLalat" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tC6-Fu-iyS" customClass="GameLalatVC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GameMakan2" title="GameMakan2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tC6-Fu-iyS" customClass="GameMakan2VC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9hd-Pb-qRG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,94 +23,22 @@
                                     <action selector="goingBack:" destination="tC6-Fu-iyS" eventType="touchUpInside" id="FUK-aX-ADU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qF-Ug-HIS">
-                                <rect key="frame" x="127" y="627" width="33" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="asset.StepperLeftDisabled"/>
-                                <connections>
-                                    <action selector="stepperKiriAction:" destination="tC6-Fu-iyS" eventType="touchUpInside" id="2EZ-lz-erc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqt-3P-0Zf">
-                                <rect key="frame" x="254" y="626" width="33" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="asset.StepperRightEnabled"/>
-                                <connections>
-                                    <action selector="stepperKananAction:" destination="tC6-Fu-iyS" eventType="touchUpInside" id="4vT-dg-6zr"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7Y-xd-Wyn">
-                                <rect key="frame" x="21" y="713" width="382" height="44"/>
+                                <rect key="frame" x="280" y="460" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Kirim Jawaban" backgroundImage="buttonBase.KirimJawaban Copy">
+                                <state key="normal" backgroundImage="donat">
                                     <color key="titleColor" red="0.29379999639999999" green="0.73958551880000001" blue="0.58821862940000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="checkAnswer:" destination="tC6-Fu-iyS" eventType="touchUpInside" id="Jyb-sj-Ws3"/>
+                                    <action selector="donutClicked:" destination="tC6-Fu-iyS" eventType="touchUpInside" id="Jyb-sj-Ws3"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.Fly" translatesAutoresizingMaskIntoConstraints="NO" id="ZX6-7v-rvR">
-                                <rect key="frame" x="214" y="500" width="49" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.BaseHintIndicator" translatesAutoresizingMaskIntoConstraints="NO" id="YSA-my-s9b">
                                 <rect key="frame" x="303" y="80" width="71" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon.Hint" translatesAutoresizingMaskIntoConstraints="NO" id="aAb-ju-WxO">
                                 <rect key="frame" x="308" y="88" width="27" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.Fly" translatesAutoresizingMaskIntoConstraints="NO" id="0N2-ht-vAW">
-                                <rect key="frame" x="98" y="260" width="36" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.Fly" translatesAutoresizingMaskIntoConstraints="NO" id="2gw-wY-VkC">
-                                <rect key="frame" x="187" y="198" width="68" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.Fly" translatesAutoresizingMaskIntoConstraints="NO" id="DKP-UZ-cFA">
-                                <rect key="frame" x="206" y="283" width="45" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.Fly" translatesAutoresizingMaskIntoConstraints="NO" id="cqe-H9-DOI">
-                                <rect key="frame" x="101" y="178" width="31" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.Fly" translatesAutoresizingMaskIntoConstraints="NO" id="WUv-WT-0in">
-                                <rect key="frame" x="303" y="225" width="49" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.Fly" translatesAutoresizingMaskIntoConstraints="NO" id="Yx4-GW-RvW">
-                                <rect key="frame" x="139" y="334" width="39" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.Fly" translatesAutoresizingMaskIntoConstraints="NO" id="vaZ-yt-H8h">
-                                <rect key="frame" x="257" y="352" width="34" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.Noodle" translatesAutoresizingMaskIntoConstraints="NO" id="lPX-xA-TCI">
-                                <rect key="frame" x="101" y="402" width="190" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="C8E-PI-9Et" appends="YES" id="Azi-V4-Xp1"/>
-                                </connections>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="base.QuestionContainer Copy" translatesAutoresizingMaskIntoConstraints="NO" id="a6p-9q-EfZ">
-                                <rect key="frame" x="50" y="534" width="320" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.Fly" translatesAutoresizingMaskIntoConstraints="NO" id="xpy-Hu-NIR">
-                                <rect key="frame" x="325" y="358" width="40" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.Fly" translatesAutoresizingMaskIntoConstraints="NO" id="GhH-yX-M4S">
-                                <rect key="frame" x="68" y="358" width="47" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.Fly" translatesAutoresizingMaskIntoConstraints="NO" id="N0d-Kh-eTr">
-                                <rect key="frame" x="343" y="286" width="49" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIQ-mg-Nax">
@@ -120,14 +48,7 @@
                                 <color key="textColor" red="0.9460045695" green="0.63301569219999998" blue="0.062197208400000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Berapa Jumlah Lalat?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZ5-hC-dJc">
-                                <rect key="frame" x="119" y="566" width="176" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hitung Lalat di Sekitar Makananmu !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKU-Aa-ReH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mana yang tidak boleh kamu makan?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKU-Aa-ReH">
                                 <rect key="frame" x="21" y="162" width="371" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
@@ -149,42 +70,39 @@
                                 <color key="textColor" red="0.29379999639999999" green="0.73958551880000001" blue="0.58821862940000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGh-xP-BTe">
-                                <rect key="frame" x="187" y="624" width="40" height="64"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.BurgerPiring" translatesAutoresizingMaskIntoConstraints="NO" id="lPX-xA-TCI">
+                                <rect key="frame" x="67" y="409" width="151" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="C8E-PI-9Et" appends="YES" id="Azi-V4-Xp1"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="9b4-nu-QOc"/>
                     </view>
                     <connections>
-                        <outlet property="answer" destination="NGh-xP-BTe" id="QaS-PV-BnM"/>
                         <outlet property="backButton" destination="Rot-Ra-roF" id="Hlq-95-GBN"/>
-                        <outlet property="bowlDragged" destination="C8E-PI-9Et" id="Tkg-T4-KgB"/>
+                        <outlet property="burger" destination="lPX-xA-TCI" id="K7R-pS-2Nh"/>
+                        <outlet property="burgerDraged" destination="C8E-PI-9Et" id="Tkg-T4-KgB"/>
                         <outlet property="buttonHint" destination="86I-hh-7Ar" id="45g-5s-69O"/>
                         <outlet property="hintLabel" destination="ZIQ-mg-Nax" id="OC1-Zv-wL0"/>
-                        <outlet property="mieBowl" destination="lPX-xA-TCI" id="K7R-pS-2Nh"/>
-                        <outlet property="stepperKanan" destination="dqt-3P-0Zf" id="rLX-g9-1FY"/>
-                        <outlet property="stepperKiri" destination="4qF-Ug-HIS" id="GWq-Eg-XCj"/>
-                        <outlet property="submitAnswer" destination="y7Y-xd-Wyn" id="VHN-F6-GSo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PUW-sj-S5S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="C8E-PI-9Et">
                     <connections>
-                        <action selector="dragBowl:" destination="tC6-Fu-iyS" id="fli-TE-f0y"/>
+                        <action selector="dragBurger:" destination="tC6-Fu-iyS" id="fli-TE-f0y"/>
                     </connections>
                 </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-184.05797101449278" y="174.77678571428569"/>
         </scene>
-        <!--HintGameLalat-->
+        <!--HintGameMakan2-->
         <scene sceneID="nUp-uN-t5G">
             <objects>
-                <viewController storyboardIdentifier="HintGameLalat" title="HintGameLalat" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZcZ-Ha-mkY" customClass="HintGameLalatVC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HintGameMakan2" title="HintGameMakan2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZcZ-Ha-mkY" customClass="HintGameMakan2VC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A5n-y2-X0n">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -204,8 +122,8 @@
                                 <color key="textColor" red="0.9460045695" green="0.63301569219999998" blue="0.062197208400000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mangkoknya bisa dipindahkan, loh!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQk-jD-Mtf">
-                                <rect key="frame" x="74" y="437" width="267" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kamu makan makanan jatuh?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQk-jD-Mtf">
+                                <rect key="frame" x="96" y="449" width="223" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -220,10 +138,10 @@
             </objects>
             <point key="canvasLocation" x="456.52173913043481" y="175.44642857142856"/>
         </scene>
-        <!--BerhasilGameLalat-->
+        <!--BerhasilGameMakan2-->
         <scene sceneID="CI4-fu-sM6">
             <objects>
-                <viewController storyboardIdentifier="BerhasilGameLalat" title="BerhasilGameLalat" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mrJ-yr-8yg" customClass="BerhasilGameLalatVC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BerhasilGameMakan2" title="BerhasilGameMakan2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mrJ-yr-8yg" customClass="BerhasilGameMakan2VC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RQg-Ca-4yV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -236,7 +154,7 @@
                                 <rect key="frame" x="79" y="250" width="257" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.PopUpLalat" translatesAutoresizingMaskIntoConstraints="NO" id="B7D-E7-MSr">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="popuplvl3makan" translatesAutoresizingMaskIntoConstraints="NO" id="B7D-E7-MSr">
                                 <rect key="frame" x="85" y="379" width="244" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -244,15 +162,15 @@
                                 <rect key="frame" x="111" y="588" width="184" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Lanjut!" backgroundImage="base.ButtonPopUp">
+                                <state key="normal" title="Selesai!" backgroundImage="base.ButtonPopUp">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="toNextLevel:" destination="mrJ-yr-8yg" eventType="touchUpInside" id="xEg-2t-Qby"/>
+                                    <action selector="toNextLevel:" destination="mrJ-yr-8yg" eventType="touchUpInside" id="m1r-oU-xKE"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Lalat bisa membawa 351 bakteri, jadi jangan makan makanan yang ada lalatnya, ya!&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjb-Xk-qPX">
-                                <rect key="frame" x="82" y="485" width="250" height="118"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Jangan makan makanan yg sudah jatuh! Secepat apapun kamu mengambilnya, bakteri sudah menempel!&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjb-Xk-qPX">
+                                <rect key="frame" x="82" y="483" width="251" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -271,18 +189,14 @@
     <resources>
         <image name="asset.BaseHintIndicator" width="76" height="36"/>
         <image name="asset.BasePopUp" width="382" height="463"/>
-        <image name="asset.Fly" width="25" height="24"/>
+        <image name="asset.BurgerPiring" width="307" height="307"/>
         <image name="asset.HeaderPopUp" width="274" height="123"/>
         <image name="asset.HintBase" width="321" height="141"/>
-        <image name="asset.Noodle" width="221" height="134"/>
-        <image name="asset.PopUpLalat" width="225" height="139"/>
-        <image name="asset.StepperLeftDisabled" width="48" height="85"/>
-        <image name="asset.StepperRightEnabled" width="48" height="85"/>
         <image name="base.ButtonPopUp" width="278" height="58"/>
-        <image name="base.QuestionContainer Copy" width="402" height="92"/>
         <image name="button.Hint" width="382" height="44"/>
-        <image name="buttonBase.KirimJawaban Copy" width="382" height="44"/>
+        <image name="donat" width="224" height="224"/>
         <image name="icon.Back" width="24" height="24"/>
         <image name="icon.Hint" width="59" height="59"/>
+        <image name="popuplvl3makan" width="278" height="134"/>
     </resources>
 </document>

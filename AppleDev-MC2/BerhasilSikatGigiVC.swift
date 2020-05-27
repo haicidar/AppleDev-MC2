@@ -19,6 +19,10 @@ class BerhasilSikatGigiVC: UIViewController {
     
     //function for redirect to the next level after click Button on the view
     @IBAction func toNextLevel(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "ChooseGameCategory", bundle: nil)
+        let myVC = storyboard.instantiateViewController(withIdentifier: "ChooseGameCategory") as! ChooseGameCategoryVC
+        myVC.modalPresentationStyle = .overCurrentContext
+        self.present(myVC, animated: true, completion: nil)
         /*let storyBoard : UIStoryboard = UIStoryboard(name: "CuciTangan", bundle:nil)
         let nextViewController = storyBoard.instantiateViewController(withIdentifier: "CuciTangan")
         nextViewController.modalPresentationStyle = .overCurrentContext

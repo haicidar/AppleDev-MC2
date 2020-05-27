@@ -44,7 +44,7 @@
                                 <rect key="frame" x="20" y="275" width="382" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                <state key="normal" title="title" backgroundImage="buttonBase.LevelEnabled"/>
+                                <state key="normal" title="Level 1" backgroundImage="buttonBase.LevelEnabled"/>
                                 <connections>
                                     <action selector="selectLevel1:" destination="354-iO-WXm" eventType="touchUpInside" id="Bjt-bk-ZGQ"/>
                                 </connections>
@@ -53,7 +53,7 @@
                                 <rect key="frame" x="16" y="370" width="382" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                <state key="normal" title="title" backgroundImage="buttonBase.LevelEnabled"/>
+                                <state key="normal" title="Level 2" backgroundImage="buttonBase.LevelEnabled"/>
                                 <connections>
                                     <action selector="selectLevel2:" destination="354-iO-WXm" eventType="touchUpInside" id="QIc-7e-9xm"/>
                                 </connections>
@@ -62,7 +62,7 @@
                                 <rect key="frame" x="16" y="474" width="382" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                <state key="normal" title="title" backgroundImage="buttonBase.LevelEnabled"/>
+                                <state key="normal" title="Level 3" backgroundImage="buttonBase.LevelEnabled"/>
                                 <connections>
                                     <action selector="selectLevel3:" destination="354-iO-WXm" eventType="touchUpInside" id="6lE-HK-tAz"/>
                                 </connections>

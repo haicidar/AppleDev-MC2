@@ -15,7 +15,6 @@ class DetailGameCategoryVC: UIViewController {
     @IBOutlet weak var detailGameDescription: UILabel!
     @IBOutlet weak var detailGameImage: UIImageView!
     @IBOutlet weak var detailGameTitle: UILabel!
-    var levels = GameLevel.createGameLevel()
 
     var categories = [GameCategory]()
     var index = Int()
@@ -27,10 +26,6 @@ class DetailGameCategoryVC: UIViewController {
         detailGameImage.image = UIImage(named: categories[index].images)
         detailGameDescription.text = categories[index].details
         
-        for (levelButton,level)  in zip(detailGameLevel,levels) {
-            levelButton.setTitle(level.title, for: .normal)
-            levelButton.tag = level.tag
-        }
         
         self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "icon.Back")
         self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage(named: "icon.Back")
@@ -38,24 +33,51 @@ class DetailGameCategoryVC: UIViewController {
     }
     
     @IBAction func selectLevel1(_ sender: UIButton) {
-        let storyboard = UIStoryboard(name: "CuciTangan", bundle: nil)
-        let myVC = storyboard.instantiateViewController(withIdentifier: "CuciTangan") as! CuciTanganVC
-        myVC.modalPresentationStyle = .overCurrentContext
-        self.present(myVC, animated: true, completion: nil)
+        var name = "GameLalat"
+        if index == 0{
+            name = "CuciTangan"
+            let storyboard = UIStoryboard(name: name, bundle: nil)
+            let myVC = storyboard.instantiateViewController(withIdentifier: name) as! CuciTanganVC
+            myVC.modalPresentationStyle = .overCurrentContext
+            self.present(myVC, animated: true, completion: nil)
+        } else {
+            let storyboard = UIStoryboard(name: name, bundle: nil)
+            let myVC = storyboard.instantiateViewController(withIdentifier: name) as! GameLalatVC
+            myVC.modalPresentationStyle = .overCurrentContext
+            self.present(myVC, animated: true, completion: nil)
+        }
     }
     
     @IBAction func selectLevel2(_ sender: UIButton) {
-        let storyboard = UIStoryboard(name: levels[sender.tag].game, bundle: nil)
-        let myVC = storyboard.instantiateViewController(withIdentifier: "\(levels[sender.tag].game)") as! SikatGigiVC
-        myVC.modalPresentationStyle = .overCurrentContext
-        self.present(myVC, animated: true, completion: nil)
+        var name = "GameMakan1"
+        if index == 0{
+            name = "GameCuciPiring"
+            let storyboard = UIStoryboard(name: name, bundle: nil)
+            let myVC = storyboard.instantiateViewController(withIdentifier: name) as! GameCuciPiringVC
+            myVC.modalPresentationStyle = .overCurrentContext
+            self.present(myVC, animated: true, completion: nil)
+        } else {
+            let storyboard = UIStoryboard(name: name, bundle: nil)
+            let myVC = storyboard.instantiateViewController(withIdentifier: name) as! GameMakan1VC
+            myVC.modalPresentationStyle = .overCurrentContext
+            self.present(myVC, animated: true, completion: nil)
+        }
     }
     
     @IBAction func selectLevel3(_ sender: UIButton) {
-        let storyboard = UIStoryboard(name: levels[sender.tag].game, bundle: nil)
-        let myVC = storyboard.instantiateViewController(withIdentifier: "\(levels[sender.tag].game)") as! GameLalatVC
-        myVC.modalPresentationStyle = .overCurrentContext
-        self.present(myVC, animated: true, completion: nil)
+        var name = "GameMakan2"
+        if index == 0{
+            name = "SikatGigi"
+            let storyboard = UIStoryboard(name: name, bundle: nil)
+            let myVC = storyboard.instantiateViewController(withIdentifier: name) as! SikatGigiVC
+            myVC.modalPresentationStyle = .overCurrentContext
+            self.present(myVC, animated: true, completion: nil)
+        } else {
+            let storyboard = UIStoryboard(name: name, bundle: nil)
+            let myVC = storyboard.instantiateViewController(withIdentifier: name) as! GameMakan2VC
+            myVC.modalPresentationStyle = .overCurrentContext
+            self.present(myVC, animated: true, completion: nil)
+        }
     }
     
     
