@@ -79,12 +79,4 @@ class DetailGameCategoryVC: UIViewController {
             self.present(myVC, animated: true, completion: nil)
         }
     }
-    
-    
-//    func customizeNavBar() {
-//        self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "icon.Back")
-//        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage(named: "icon.Back")
-//        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain, target: nil, action: nil)
-//    }
-//
  }

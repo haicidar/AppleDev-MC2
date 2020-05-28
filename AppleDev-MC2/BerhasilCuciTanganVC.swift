@@ -12,13 +12,11 @@ class BerhasilCuciTanganVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        super.viewDidLoad()
         view.backgroundColor = UIColor(white: 0, alpha: 0.6)
         view.isOpaque = false
         
         //adding tap recognizer for redirect to the next level
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "toNextLevel")
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.toNextLevel))
         view.addGestureRecognizer(tap)
     }
     

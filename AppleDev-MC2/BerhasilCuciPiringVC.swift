@@ -17,6 +17,12 @@ class BerhasilCuciPiringVC: UIViewController {
     }
     
 
+    @IBAction func toNextLevel(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "SikatGigi", bundle: nil)
+        let myVC = storyboard.instantiateViewController(withIdentifier: "SikatGigi") as! SikatGigiVC
+        myVC.modalPresentationStyle = .overCurrentContext
+        self.present(myVC, animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 

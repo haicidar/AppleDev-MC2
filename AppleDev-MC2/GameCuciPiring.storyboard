@@ -15,18 +15,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgcucipiring" translatesAutoresizingMaskIntoConstraints="NO" id="ngf-Sg-D1y">
-                                <rect key="frame" x="-33" y="546" width="481" height="399"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="piring" translatesAutoresizingMaskIntoConstraints="NO" id="cfL-tP-QC4">
-                                <rect key="frame" x="87" y="221" width="241" height="255"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydk-L9-awA">
                                 <rect key="frame" x="20" y="59" width="24" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="icon.Back"/>
+                                <connections>
+                                    <action selector="goingBack:" destination="AwL-aQ-lZy" eventType="touchUpInside" id="wgx-fP-hya"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgcucipiring" translatesAutoresizingMaskIntoConstraints="NO" id="ngf-Sg-D1y">
+                                <rect key="frame" x="-33" y="546" width="481" height="399"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5H1-ga-gUW">
+                                <rect key="frame" x="86" y="227" width="234" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="piring"/>
+                                <connections>
+                                    <action selector="piringFlip:" destination="AwL-aQ-lZy" eventType="touchUpInside" id="amj-ds-RUe"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hindari Kuman!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKc-dJ-4r0">
                                 <rect key="frame" x="52" y="59" width="146" height="24"/>
@@ -63,10 +70,6 @@
                                     <action selector="showHint:" destination="AwL-aQ-lZy" eventType="touchUpInside" id="MqH-ef-FbY"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kotoran5palingbawah" translatesAutoresizingMaskIntoConstraints="NO" id="Za5-FQ-Udm">
-                                <rect key="frame" x="162" y="450" width="53" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bantu Ibu Cuci Piring, Yuk!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFD-q3-wcn">
                                 <rect key="frame" x="99" y="130" width="216" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -97,20 +100,29 @@
                                 <color key="textColor" red="0.94572299719999997" green="0.63361436130000004" blue="0.062193699179999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clinkclink" translatesAutoresizingMaskIntoConstraints="NO" id="qSz-1h-OcG">
+                                <rect key="frame" x="60" y="251" width="249" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kotoran5palingbawah" translatesAutoresizingMaskIntoConstraints="NO" id="Za5-FQ-Udm">
+                                <rect key="frame" x="162" y="444" width="53" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Xza-qZ-a6X"/>
                     </view>
                     <connections>
+                        <outlet property="btnPiring" destination="5H1-ga-gUW" id="wQ3-uq-H1x"/>
                         <outlet property="buttonHint" destination="rXf-C3-ItM" id="GQT-kk-HJm"/>
                         <outlet property="hintLabel" destination="8fy-Ps-xKP" id="l3L-4Y-qON"/>
+                        <outlet property="imgClink" destination="qSz-1h-OcG" id="Ln6-Bx-e1L"/>
                         <outlet property="imgKotoran1" destination="W2c-DM-Do2" id="C4O-rW-6Ki"/>
                         <outlet property="imgKotoran2" destination="jDz-l0-SDB" id="RNj-Kq-OaY"/>
                         <outlet property="imgKotoran3" destination="Cx2-AC-h0r" id="BjK-hc-EB6"/>
                         <outlet property="imgKotoran4" destination="6F0-tx-UlR" id="oD6-qF-996"/>
                         <outlet property="imgKotoran5" destination="Za5-FQ-Udm" id="7n6-4y-z4u"/>
                         <outlet property="imgKotoran6" destination="EDl-yh-9Ix" id="v64-MR-whI"/>
-                        <outlet property="imgPiring" destination="cfL-tP-QC4" id="GA6-B8-g9W"/>
                         <outlet property="imgSponge" destination="Xn9-fa-Dpb" id="1FS-Hy-IjR"/>
                     </connections>
                 </viewController>
@@ -146,10 +158,10 @@
                                 <color key="textColor" red="0.94572299719999997" green="0.63361436130000004" blue="0.062193699179999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lorem ipsum dolor sit amet consectetuer adipiscing elit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rm7-Su-lgT">
-                                <rect key="frame" x="74" y="432" width="267" height="58"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bersihkan kotorannya menggunakan spons" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rm7-Su-lgT">
+                                <rect key="frame" x="74" y="419" width="267" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -165,21 +177,36 @@
         <!--Berhasil Cuci PiringVC-->
         <scene sceneID="BX0-xF-mEp">
             <objects>
-                <viewController id="yyJ-vd-YJS" customClass="BerhasilCuciPiringVC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BerhasilCuciPiring" id="yyJ-vd-YJS" customClass="BerhasilCuciPiringVC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ueM-Xz-sbB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.BasePopUp" translatesAutoresizingMaskIntoConstraints="NO" id="U6a-G6-omj">
-                                <rect key="frame" x="-82" y="295" width="579" height="307"/>
+                                <rect key="frame" x="55" y="301" width="305" height="346"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="popuplevel2mencucipiring" translatesAutoresizingMaskIntoConstraints="NO" id="eSD-B5-m8X">
+                                <rect key="frame" x="97" y="373" width="221" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.HeaderPopUp" translatesAutoresizingMaskIntoConstraints="NO" id="GMC-zV-N1u">
-                                <rect key="frame" x="87" y="254" width="240" height="128"/>
+                                <rect key="frame" x="79" y="250" width="257" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Setelah selesai makan, piringnya langsung dicuci ya! Agar bakteri dalam piring tidak berkembang biak" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agX-MJ-tgI">
-                                <rect key="frame" x="107" y="451" width="200" height="126"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHi-tR-9mX">
+                                <rect key="frame" x="111" y="588" width="184" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Lanjut!" backgroundImage="base.ButtonPopUp">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="toNextLevel:" destination="yyJ-vd-YJS" eventType="touchUpInside" id="pZ4-Iy-KHE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Setelah selesai makan, piringnya langsung dicuci ya! Agar bakteri dalam piring tidak berkembang biak&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agX-MJ-tgI">
+                                <rect key="frame" x="80" y="454" width="256" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -192,7 +219,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yyr-jT-STN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1718.840579710145" y="-34.151785714285715"/>
+            <point key="canvasLocation" x="1763.7681159420292" y="-46.205357142857139"/>
         </scene>
     </scenes>
     <resources>
@@ -200,8 +227,10 @@
         <image name="asset.BasePopUp" width="382" height="463"/>
         <image name="asset.HeaderPopUp" width="274" height="123"/>
         <image name="asset.HintBase" width="321" height="141"/>
+        <image name="base.ButtonPopUp" width="278" height="58"/>
         <image name="bgcucipiring" width="414" height="393"/>
         <image name="button.Hint" width="382" height="44"/>
+        <image name="clinkclink" width="208" height="226"/>
         <image name="icon.Back" width="24" height="24"/>
         <image name="icon.Hint" width="59" height="59"/>
         <image name="kotoran1paling kiri" width="70" height="266"/>
@@ -211,6 +240,7 @@
         <image name="kotoran5palingbawah" width="160" height="78"/>
         <image name="kototran6tengah" width="111" height="135"/>
         <image name="piring" width="234" height="234"/>
+        <image name="popuplevel2mencucipiring" width="209" height="129"/>
         <image name="sponge" width="185" height="202"/>
     </resources>
 </document>

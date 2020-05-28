@@ -10,6 +10,8 @@ import UIKit
 
 class GameCuciPiringVC: UIViewController {
     
+    @IBOutlet weak var btnPiring: UIButton!
+    @IBOutlet weak var imgClink: UIImageView!
     @IBOutlet weak var buttonHint: UIButton!
     @IBOutlet weak var hintLabel: UILabel!
     @IBOutlet weak var imgKotoran6: UIImageView!
@@ -18,12 +20,12 @@ class GameCuciPiringVC: UIViewController {
     @IBOutlet weak var imgKotoran3: UIImageView!
     @IBOutlet weak var imgKotoran2: UIImageView!
     @IBOutlet weak var imgKotoran1: UIImageView!
-    @IBOutlet weak var imgPiring: UIImageView!
     @IBOutlet weak var imgSponge: UIImageView!
     
     var imgSpongeOrigin: CGPoint!
     var imgKotoran1Origin: CGPoint!
     var hintRemaining : Int = 3
+    var isOpen = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +35,22 @@ class GameCuciPiringVC: UIViewController {
         imgKotoran1Origin = imgKotoran1.frame.origin
         view.bringSubviewToFront(imgSponge)
         hintLabel.text = "\(hintRemaining)"
+        imgClink.isHidden = true
+    }
+    
+    
+    @IBAction func piringFlip(_ sender: Any) {
+//        if isOpen {
+//            isOpen = false
+//            let image = UIImage(named: "piring")
+//            btnPiring.setImage(image, for: .normal)
+//            UIView.transition(with: btnPiring, duration: 0.3, options: .transitionFlipFromTop, animations: nil, completion: nil)
+//        } else {
+//            isOpen = true
+//            let image = UIImage(named: "belakangpiring")
+//            btnPiring.setImage(image, for: .normal)
+//            UIView.transition(with: btnPiring, duration: 0.3, options: .transitionFlipFromBottom, animations: nil, completion: nil)
+//        }
     }
     
 //    @IBAction func handlePan(_ gesture: UIPanGestureRecognizer) {
@@ -66,20 +84,32 @@ class GameCuciPiringVC: UIViewController {
         switch sender.state {
         case .began, .changed:
             moveViewWithPanGesture(view: imgSpongeSender, sender: sender)
-
+            
         case .ended:
             if imgSpongeSender.frame.intersects(imgKotoran1.frame) {
                 deleteImgKotoranView(view: imgKotoran1)
-            } else if imgSpongeSender.frame.intersects(imgKotoran2.frame){
+            }
+            if imgSpongeSender.frame.intersects(imgKotoran2.frame){
                 deleteImgKotoranView(view: imgKotoran2)
-            } else if imgSpongeSender.frame.intersects(imgKotoran3.frame){
+            }
+            if imgSpongeSender.frame.intersects(imgKotoran3.frame){
                 deleteImgKotoranView(view: imgKotoran3)
-            } else if imgSpongeSender.frame.intersects(imgKotoran4.frame){
+            }
+            if imgSpongeSender.frame.intersects(imgKotoran4.frame){
                 deleteImgKotoranView(view: imgKotoran4)
-            } else if imgSpongeSender.frame.intersects(imgKotoran5.frame){
+            }
+            if imgSpongeSender.frame.intersects(imgKotoran5.frame){
                 deleteImgKotoranView(view: imgKotoran5)
-            } else if imgSpongeSender.frame.intersects(imgKotoran6.frame){
+            }
+            if imgSpongeSender.frame.intersects(imgKotoran6.frame){
                 deleteImgKotoranView(view: imgKotoran6)
+            }
+            
+            if imgKotoran1.alpha == 0.0 && imgKotoran2.alpha == 0.0 && imgKotoran3.alpha == 0.0 && imgKotoran4.alpha == 0.0 && imgKotoran5.alpha == 0.0 && imgKotoran6.alpha == 0.0 {
+                let storyBoard: UIStoryboard = UIStoryboard(name: "GameCuciPiring", bundle: nil)
+                let nextVC = storyBoard.instantiateViewController(withIdentifier: "BerhasilCuciPiring")
+                nextVC.modalPresentationStyle = .overCurrentContext
+                self.present(nextVC, animated: true, completion: nil)
             }
         default:
             break
@@ -100,6 +130,14 @@ class GameCuciPiringVC: UIViewController {
         })
     }
     
+    @IBAction func goingBack(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "DetailGameCategory", bundle: nil)
+        let myVC = storyboard.instantiateViewController(withIdentifier: "DetailGameCategoryVC") as! DetailGameCategoryVC
+        myVC.index = 0
+        myVC.categories = GameCategory.createGameCategory()
+        myVC.modalPresentationStyle = .overCurrentContext
+        self.present(myVC, animated: true, completion: nil)
+    }
     
     @IBAction func showHint(_ sender: Any) {
         if hintRemaining <= 1 {
