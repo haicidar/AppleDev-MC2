@@ -445,7 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9S2322R8WG;
+				DEVELOPMENT_TEAM = WLTH7M8V55;
 				INFOPLIST_FILE = "AppleDev-MC2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9S2322R8WG;
+				DEVELOPMENT_TEAM = WLTH7M8V55;
 				INFOPLIST_FILE = "AppleDev-MC2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

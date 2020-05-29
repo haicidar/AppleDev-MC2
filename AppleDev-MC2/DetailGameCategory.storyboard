@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OBA-5D-YaC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OBA-5D-YaC">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -15,60 +15,78 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uao-E4-WtF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uao-E4-WtF">
                                 <rect key="frame" x="20" y="106" width="116" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="oKV-8O-1YM"/>
+                                    <constraint firstAttribute="width" constant="116" id="rfP-ta-aCB"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Game Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pso-1v-P4D">
-                                <rect key="frame" x="154" y="106" width="240" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pso-1v-P4D">
+                                <rect key="frame" x="154" y="106" width="240" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sa-jQ-A74">
-                                <rect key="frame" x="154" y="135" width="240" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sa-jQ-A74">
+                                <rect key="frame" x="154" y="138" width="240" height="50.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level Tersedia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SoK-UU-nxd">
-                                <rect key="frame" x="20" y="243" width="240" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level Tersedia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SoK-UU-nxd">
+                                <rect key="frame" x="20" y="243" width="134.5" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EU-G1-coq">
-                                <rect key="frame" x="20" y="275" width="382" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                <state key="normal" title="Level 1" backgroundImage="buttonBase.LevelEnabled"/>
-                                <connections>
-                                    <action selector="selectLevel1:" destination="354-iO-WXm" eventType="touchUpInside" id="Bjt-bk-ZGQ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utI-ZR-Wuh">
-                                <rect key="frame" x="16" y="370" width="382" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utI-ZR-Wuh">
+                                <rect key="frame" x="16" y="361" width="382" height="58"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <state key="normal" title="Level 2" backgroundImage="buttonBase.LevelEnabled"/>
                                 <connections>
                                     <action selector="selectLevel2:" destination="354-iO-WXm" eventType="touchUpInside" id="QIc-7e-9xm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ix0-X6-tdL">
-                                <rect key="frame" x="16" y="474" width="382" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ix0-X6-tdL">
+                                <rect key="frame" x="16" y="439" width="382" height="58"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <state key="normal" title="Level 3" backgroundImage="buttonBase.LevelEnabled"/>
                                 <connections>
                                     <action selector="selectLevel3:" destination="354-iO-WXm" eventType="touchUpInside" id="6lE-HK-tAz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EU-G1-coq">
+                                <rect key="frame" x="16" y="283" width="382" height="58"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <state key="normal" title="Level 1" backgroundImage="buttonBase.LevelEnabled"/>
+                                <connections>
+                                    <action selector="selectLevel1:" destination="354-iO-WXm" eventType="touchUpInside" id="Bjt-bk-ZGQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="SoK-UU-nxd" firstAttribute="top" secondItem="Uao-E4-WtF" secondAttribute="bottom" constant="29" id="2GB-1z-Ke6"/>
+                            <constraint firstAttribute="trailing" secondItem="ix0-X6-tdL" secondAttribute="trailing" constant="16" id="9Pw-ud-SCa"/>
+                            <constraint firstAttribute="trailing" secondItem="utI-ZR-Wuh" secondAttribute="trailing" constant="16" id="D0k-Bz-6vT"/>
+                            <constraint firstItem="utI-ZR-Wuh" firstAttribute="leading" secondItem="vCS-is-YX4" secondAttribute="leading" constant="16" id="DEf-Cc-bNJ"/>
+                            <constraint firstItem="7sa-jQ-A74" firstAttribute="top" secondItem="pso-1v-P4D" secondAttribute="bottom" constant="8" id="FBk-hf-geT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pso-1v-P4D" secondAttribute="trailing" id="Gar-Pw-e4I"/>
+                            <constraint firstItem="Uao-E4-WtF" firstAttribute="top" secondItem="vCS-is-YX4" secondAttribute="topMargin" constant="18" id="Go9-hf-2DT"/>
+                            <constraint firstItem="ix0-X6-tdL" firstAttribute="leading" secondItem="vCS-is-YX4" secondAttribute="leading" constant="16" id="Pm2-Jk-eBp"/>
+                            <constraint firstItem="SoK-UU-nxd" firstAttribute="leading" secondItem="vCS-is-YX4" secondAttribute="leadingMargin" id="Se4-k2-Fn7"/>
+                            <constraint firstItem="7sa-jQ-A74" firstAttribute="trailing" secondItem="vCS-is-YX4" secondAttribute="trailingMargin" id="We0-PG-zg0"/>
+                            <constraint firstItem="7sa-jQ-A74" firstAttribute="leading" secondItem="Uao-E4-WtF" secondAttribute="trailing" constant="18" id="ZaL-if-IQm"/>
+                            <constraint firstItem="pso-1v-P4D" firstAttribute="top" secondItem="vCS-is-YX4" secondAttribute="topMargin" constant="18" id="f3q-eG-Pd1"/>
+                            <constraint firstItem="3EU-G1-coq" firstAttribute="leading" secondItem="vCS-is-YX4" secondAttribute="leading" constant="16" id="fF9-dd-AiJ"/>
+                            <constraint firstItem="pso-1v-P4D" firstAttribute="leading" secondItem="Uao-E4-WtF" secondAttribute="trailing" constant="18" id="i0P-NQ-kPS"/>
+                            <constraint firstItem="Uao-E4-WtF" firstAttribute="leading" secondItem="vCS-is-YX4" secondAttribute="leadingMargin" id="mp5-hK-osN"/>
+                            <constraint firstItem="ix0-X6-tdL" firstAttribute="top" secondItem="utI-ZR-Wuh" secondAttribute="bottom" constant="20" id="nfN-Jn-HhG"/>
+                            <constraint firstItem="3EU-G1-coq" firstAttribute="top" secondItem="SoK-UU-nxd" secondAttribute="bottom" constant="16" id="nzG-yc-gJR"/>
+                            <constraint firstItem="utI-ZR-Wuh" firstAttribute="top" secondItem="3EU-G1-coq" secondAttribute="bottom" constant="20" id="pou-qy-i0G"/>
+                            <constraint firstAttribute="trailing" secondItem="3EU-G1-coq" secondAttribute="trailing" constant="16" id="sR9-rX-zja"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Aea-Zw-5ak"/>
                     </view>
                     <navigationItem key="navigationItem" id="099-V0-MQU"/>
