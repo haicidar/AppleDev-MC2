@@ -16,7 +16,7 @@ class HintGameLalatVC: UIViewController {
             view.isOpaque = false
             
             //Adding Tap Recognizer to dismiss the hint
-            let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissHint")
+            let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.dismissHint))
             view.addGestureRecognizer(tap)
         }
         

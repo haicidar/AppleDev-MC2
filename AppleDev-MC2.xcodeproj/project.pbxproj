@@ -43,10 +43,10 @@
 		28F38A0A247E087B000AE610 /* BerhasilGameMakan2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F38A05247E087B000AE610 /* BerhasilGameMakan2VC.swift */; };
 		28F38A0B247E087B000AE610 /* HintGameMakan2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F38A06247E087B000AE610 /* HintGameMakan2VC.swift */; };
 		28F38A0C247E087B000AE610 /* GameMakan2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F38A07247E087B000AE610 /* GameMakan2.swift */; };
-		28F38A0D247E087B000AE610 /* GameMakan2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F38A08247E087B000AE610 /* GameMakan2.storyboard */; };
 		28F38A12247F9673000AE610 /* GameCuciPiring.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F38A10247F9673000AE610 /* GameCuciPiring.storyboard */; };
 		28F38A13247F9673000AE610 /* GameCuciPiringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F38A11247F9673000AE610 /* GameCuciPiringVC.swift */; };
 		28F38A15247FA98D000AE610 /* GameMakan1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F38A14247FA98D000AE610 /* GameMakan1.swift */; };
+		28F38A172480B32A000AE610 /* GameMakan2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F38A162480B32A000AE610 /* GameMakan2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,10 +88,10 @@
 		28F38A05247E087B000AE610 /* BerhasilGameMakan2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BerhasilGameMakan2VC.swift; sourceTree = "<group>"; };
 		28F38A06247E087B000AE610 /* HintGameMakan2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HintGameMakan2VC.swift; sourceTree = "<group>"; };
 		28F38A07247E087B000AE610 /* GameMakan2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMakan2.swift; sourceTree = "<group>"; };
-		28F38A08247E087B000AE610 /* GameMakan2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GameMakan2.storyboard; sourceTree = "<group>"; };
 		28F38A10247F9673000AE610 /* GameCuciPiring.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GameCuciPiring.storyboard; sourceTree = "<group>"; };
 		28F38A11247F9673000AE610 /* GameCuciPiringVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCuciPiringVC.swift; sourceTree = "<group>"; };
 		28F38A14247FA98D000AE610 /* GameMakan1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMakan1.swift; sourceTree = "<group>"; };
+		28F38A162480B32A000AE610 /* GameMakan2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = GameMakan2.storyboard; path = "../../../../../Downloads/AppleDev-MC2-ce091cc9671c60a8f4b473efdbf268b5fabe5758/AppleDev-MC2/GameMakan2.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,9 +162,9 @@
 				28F389E0247D89F1000AE610 /* CuciTangan.storyboard */,
 				28F389E7247D89F1000AE610 /* CuciTanganVC.swift */,
 				28F38A05247E087B000AE610 /* BerhasilGameMakan2VC.swift */,
-				28F38A08247E087B000AE610 /* GameMakan2.storyboard */,
 				28F38A07247E087B000AE610 /* GameMakan2.swift */,
 				28F38A04247E087B000AE610 /* GameMakan2VC.swift */,
+				28F38A162480B32A000AE610 /* GameMakan2.storyboard */,
 				28F38A06247E087B000AE610 /* HintGameMakan2VC.swift */,
 				28F389E1247D89F1000AE610 /* GameLalat.swift */,
 				28F389FC247DEE97000AE610 /* BerhasilGameMakan1VC.swift */,
@@ -251,13 +251,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28F38A172480B32A000AE610 /* GameMakan2.storyboard in Resources */,
 				28A6A840246A8F1900FD04C8 /* LaunchScreen.storyboard in Resources */,
 				28F389F7247D89F1000AE610 /* SikatGigi.storyboard in Resources */,
 				256425EC246EE39F00568A02 /* DetailGameCategory.storyboard in Resources */,
 				28F38A12247F9673000AE610 /* GameCuciPiring.storyboard in Resources */,
 				28F38A03247DEF03000AE610 /* GameMakan1.storyboard in Resources */,
 				25D7F7EE246D363A008F8DD4 /* ChooseGameCategory.storyboard in Resources */,
-				28F38A0D247E087B000AE610 /* GameMakan2.storyboard in Resources */,
 				28F389F4247D89F1000AE610 /* GameLalat.storyboard in Resources */,
 				28A6A83D246A8F1900FD04C8 /* Assets.xcassets in Resources */,
 				28A6A83B246A8F1900FD04C8 /* Main.storyboard in Resources */,
@@ -445,7 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WLTH7M8V55;
+				DEVELOPMENT_TEAM = 9S2322R8WG;
 				INFOPLIST_FILE = "AppleDev-MC2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WLTH7M8V55;
+				DEVELOPMENT_TEAM = 9S2322R8WG;
 				INFOPLIST_FILE = "AppleDev-MC2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
