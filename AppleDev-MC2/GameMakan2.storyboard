@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tC6-Fu-iyS">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--GameMakan2-->
+        <scene sceneID="MCN-vJ-E8q">
+            <objects>
+                <viewController storyboardIdentifier="GameMakan2" title="GameMakan2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tC6-Fu-iyS" customClass="GameMakan2VC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9hd-Pb-qRG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rot-Ra-roF">
+                                <rect key="frame" x="40" y="81" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="icon.Back"/>
+                                <connections>
+                                    <action selector="goingBack:" destination="tC6-Fu-iyS" eventType="touchUpInside" id="FUK-aX-ADU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7Y-xd-Wyn">
+                                <rect key="frame" x="280" y="460" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="donat">
+                                    <color key="titleColor" red="0.29379999639999999" green="0.73958551880000001" blue="0.58821862940000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="donutClicked:" destination="tC6-Fu-iyS" eventType="touchUpInside" id="Jyb-sj-Ws3"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.BaseHintIndicator" translatesAutoresizingMaskIntoConstraints="NO" id="YSA-my-s9b">
+                                <rect key="frame" x="303" y="80" width="71" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon.Hint" translatesAutoresizingMaskIntoConstraints="NO" id="aAb-ju-WxO">
+                                <rect key="frame" x="308" y="88" width="27" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIQ-mg-Nax">
+                                <rect key="frame" x="346" y="88" width="13" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.9460045695" green="0.63301569219999998" blue="0.062197208400000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mana yang tidak boleh kamu makan?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKU-Aa-ReH">
+                                <rect key="frame" x="21" y="162" width="371" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86I-hh-7Ar">
+                                <rect key="frame" x="19" y="770" width="382" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.Hint"/>
+                                <connections>
+                                    <action selector="showHint:" destination="tC6-Fu-iyS" eventType="touchUpInside" id="unM-eI-7fi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Waktunya makan!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFJ-rZ-jsl">
+                                <rect key="frame" x="-12" y="79" width="371" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" red="0.29379999639999999" green="0.73958551880000001" blue="0.58821862940000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.BurgerPiring" translatesAutoresizingMaskIntoConstraints="NO" id="lPX-xA-TCI">
+                                <rect key="frame" x="67" y="409" width="151" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="C8E-PI-9Et" appends="YES" id="Azi-V4-Xp1"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="9b4-nu-QOc"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="Rot-Ra-roF" id="Hlq-95-GBN"/>
+                        <outlet property="burger" destination="lPX-xA-TCI" id="K7R-pS-2Nh"/>
+                        <outlet property="burgerDraged" destination="C8E-PI-9Et" id="Tkg-T4-KgB"/>
+                        <outlet property="buttonHint" destination="86I-hh-7Ar" id="45g-5s-69O"/>
+                        <outlet property="hintLabel" destination="ZIQ-mg-Nax" id="OC1-Zv-wL0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PUW-sj-S5S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="C8E-PI-9Et">
+                    <connections>
+                        <action selector="dragBurger:" destination="tC6-Fu-iyS" id="fli-TE-f0y"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-184.05797101449278" y="174.77678571428569"/>
+        </scene>
+        <!--HintGameMakan2-->
+        <scene sceneID="nUp-uN-t5G">
+            <objects>
+                <viewController storyboardIdentifier="HintGameMakan2" title="HintGameMakan2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZcZ-Ha-mkY" customClass="HintGameMakan2VC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A5n-y2-X0n">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.HintBase" translatesAutoresizingMaskIntoConstraints="NO" id="4I8-mx-ds3">
+                                <rect key="frame" x="35" y="356" width="345" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon.Hint" translatesAutoresizingMaskIntoConstraints="NO" id="oKL-dZ-rgT">
+                                <rect key="frame" x="28" y="376" width="66" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Petunjuk!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzG-ps-78e">
+                                <rect key="frame" x="81" y="383" width="79" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.9460045695" green="0.63301569219999998" blue="0.062197208400000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kamu makan makanan jatuh?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQk-jD-Mtf">
+                                <rect key="frame" x="96" y="449" width="223" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="9gf-FJ-2bi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DMo-Sk-DwC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456.52173913043481" y="175.44642857142856"/>
+        </scene>
+        <!--BerhasilGameMakan2-->
+        <scene sceneID="CI4-fu-sM6">
+            <objects>
+                <viewController storyboardIdentifier="BerhasilGameMakan2" title="BerhasilGameMakan2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mrJ-yr-8yg" customClass="BerhasilGameMakan2VC" customModule="AppleDev_MC2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RQg-Ca-4yV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.BasePopUp" translatesAutoresizingMaskIntoConstraints="NO" id="wB1-LP-hI2">
+                                <rect key="frame" x="55" y="301" width="305" height="346"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asset.HeaderPopUp" translatesAutoresizingMaskIntoConstraints="NO" id="9xd-QP-sLN">
+                                <rect key="frame" x="79" y="250" width="257" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="popuplvl3makan" translatesAutoresizingMaskIntoConstraints="NO" id="B7D-E7-MSr">
+                                <rect key="frame" x="85" y="379" width="244" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmB-ak-hRU">
+                                <rect key="frame" x="111" y="588" width="184" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Selesai!" backgroundImage="base.ButtonPopUp">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="toNextLevel:" destination="mrJ-yr-8yg" eventType="touchUpInside" id="m1r-oU-xKE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Jangan makan makanan yg sudah jatuh! Secepat apapun kamu mengambilnya, bakteri sudah menempel!&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjb-Xk-qPX">
+                                <rect key="frame" x="82" y="483" width="251" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Muj-g1-QCD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5VL-Pa-S2a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1111.5942028985507" y="174.77678571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="asset.BaseHintIndicator" width="76" height="36"/>
+        <image name="asset.BasePopUp" width="382" height="463"/>
+        <image name="asset.BurgerPiring" width="307" height="307"/>
+        <image name="asset.HeaderPopUp" width="274" height="123"/>
+        <image name="asset.HintBase" width="321" height="141"/>
+        <image name="base.ButtonPopUp" width="278" height="58"/>
+        <image name="button.Hint" width="382" height="44"/>
+        <image name="donat" width="224" height="224"/>
+        <image name="icon.Back" width="24" height="24"/>
+        <image name="icon.Hint" width="59" height="59"/>
+        <image name="popuplvl3makan" width="278" height="134"/>
+    </resources>
+</document>

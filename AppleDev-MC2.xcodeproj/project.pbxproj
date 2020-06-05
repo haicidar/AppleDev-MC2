@@ -13,6 +13,7 @@
 		25D7F7EE246D363A008F8DD4 /* ChooseGameCategory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D7F7ED246D363A008F8DD4 /* ChooseGameCategory.storyboard */; };
 		25D7F7F0246D3654008F8DD4 /* ChooseGameCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7F7EF246D3654008F8DD4 /* ChooseGameCategoryVC.swift */; };
 		25D7F7F3246D9193008F8DD4 /* CategoryGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D7F7F2246D9193008F8DD4 /* CategoryGameCell.swift */; };
+		287D1BAE248AA04200E87D98 /* GameMakan2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287D1BAD248AA04200E87D98 /* GameMakan2.storyboard */; };
 		28A6A834246A8F1900FD04C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6A833246A8F1900FD04C8 /* AppDelegate.swift */; };
 		28A6A836246A8F1900FD04C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6A835246A8F1900FD04C8 /* SceneDelegate.swift */; };
 		28A6A838246A8F1900FD04C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6A837246A8F1900FD04C8 /* ViewController.swift */; };
@@ -46,7 +47,6 @@
 		28F38A12247F9673000AE610 /* GameCuciPiring.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F38A10247F9673000AE610 /* GameCuciPiring.storyboard */; };
 		28F38A13247F9673000AE610 /* GameCuciPiringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F38A11247F9673000AE610 /* GameCuciPiringVC.swift */; };
 		28F38A15247FA98D000AE610 /* GameMakan1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F38A14247FA98D000AE610 /* GameMakan1.swift */; };
-		28F38A172480B32A000AE610 /* GameMakan2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F38A162480B32A000AE610 /* GameMakan2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +56,7 @@
 		25D7F7ED246D363A008F8DD4 /* ChooseGameCategory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChooseGameCategory.storyboard; sourceTree = "<group>"; };
 		25D7F7EF246D3654008F8DD4 /* ChooseGameCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseGameCategoryVC.swift; sourceTree = "<group>"; };
 		25D7F7F2246D9193008F8DD4 /* CategoryGameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGameCell.swift; sourceTree = "<group>"; };
+		287D1BAD248AA04200E87D98 /* GameMakan2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GameMakan2.storyboard; sourceTree = "<group>"; };
 		28A6A830246A8F1900FD04C8 /* AppleDev-MC2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleDev-MC2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A6A833246A8F1900FD04C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28A6A835246A8F1900FD04C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,7 +92,6 @@
 		28F38A10247F9673000AE610 /* GameCuciPiring.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GameCuciPiring.storyboard; sourceTree = "<group>"; };
 		28F38A11247F9673000AE610 /* GameCuciPiringVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCuciPiringVC.swift; sourceTree = "<group>"; };
 		28F38A14247FA98D000AE610 /* GameMakan1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMakan1.swift; sourceTree = "<group>"; };
-		28F38A162480B32A000AE610 /* GameMakan2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = GameMakan2.storyboard; path = "../../../../../Downloads/AppleDev-MC2-ce091cc9671c60a8f4b473efdbf268b5fabe5758/AppleDev-MC2/GameMakan2.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +164,7 @@
 				28F38A05247E087B000AE610 /* BerhasilGameMakan2VC.swift */,
 				28F38A07247E087B000AE610 /* GameMakan2.swift */,
 				28F38A04247E087B000AE610 /* GameMakan2VC.swift */,
-				28F38A162480B32A000AE610 /* GameMakan2.storyboard */,
+				287D1BAD248AA04200E87D98 /* GameMakan2.storyboard */,
 				28F38A06247E087B000AE610 /* HintGameMakan2VC.swift */,
 				28F389E1247D89F1000AE610 /* GameLalat.swift */,
 				28F389FC247DEE97000AE610 /* BerhasilGameMakan1VC.swift */,
@@ -251,12 +251,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28F38A172480B32A000AE610 /* GameMakan2.storyboard in Resources */,
 				28A6A840246A8F1900FD04C8 /* LaunchScreen.storyboard in Resources */,
 				28F389F7247D89F1000AE610 /* SikatGigi.storyboard in Resources */,
 				256425EC246EE39F00568A02 /* DetailGameCategory.storyboard in Resources */,
 				28F38A12247F9673000AE610 /* GameCuciPiring.storyboard in Resources */,
 				28F38A03247DEF03000AE610 /* GameMakan1.storyboard in Resources */,
+				287D1BAE248AA04200E87D98 /* GameMakan2.storyboard in Resources */,
 				25D7F7EE246D363A008F8DD4 /* ChooseGameCategory.storyboard in Resources */,
 				28F389F4247D89F1000AE610 /* GameLalat.storyboard in Resources */,
 				28A6A83D246A8F1900FD04C8 /* Assets.xcassets in Resources */,
